@@ -14,6 +14,7 @@ const loadAPI = async (method,endpoint,server,params) => {
         headers: { "Content-Type": 'application/json' }
     }
     let url = server + endpoint
+    let ret = { data: { success: false } }
 
     try {       
         if (method=='POST') {
@@ -22,10 +23,14 @@ const loadAPI = async (method,endpoint,server,params) => {
             ret = await axios.get( url, { params }, config )
         }   
 
-        retorno.success = (ret.data.length > 0)
-        retorno.data    = ret.data
-        retorno.isErr   = false
-        retorno.message = ( retorno.success==true ? 'Sucesso. OK.' : retorno.message )
+        if(ret.data.success){
+            retorno = ret.data
+        } else {
+            retorno.success = (ret.data.length > 0)
+            retorno.data    = ret.data
+            retorno.isErr   = false
+            retorno.message = ( retorno.success==true ? 'Sucesso. OK.' : retorno.message )
+        }
 
         return retorno
 

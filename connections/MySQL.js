@@ -1,5 +1,17 @@
 const mysql = require('mysql2/promise')
-const config = require("../config/dbSCCD.json")
+const production = require("../config/dbSCCD.json")
+const developer = require("../config/localhost.json")
+
+require('dotenv').config()
+
+const node_env = process.env.NODE_ENV
+let config = developer
+
+if(node_env==='Production'){
+   config = production 
+}  
+
+console.log('NODE Modo:',node_env,config)
 
 const MySQL = {
   connectDB: async function() {

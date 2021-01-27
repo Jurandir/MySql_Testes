@@ -1,5 +1,6 @@
 const CriaDirSCCD = require('./helpers/CriaDirSCCD')
 const loadAPI = require('./helpers/loadAPI')
+const sendLog = require('./helpers/sendLog')
 const baixaImagem = require('./helpers/baixaImagem')
 const getUsuarioSCCD = require('./controllers/getUsuarioSCCD')
 const proximoArquivo = require('./helpers/proximoArquivo')
@@ -10,23 +11,22 @@ const {connectDB,desconnectDB,sqlQueryDB}  = require('./connections/MySQL')
 
 require('dotenv').config()
 
-const api_list_sccd = process.env.API_LIST_SCCD
-
-
-// baixa em API o SCCD (gravar "Data")
-// insere dados no MySql (SCCD)
-// conta 2 minutos e recomeça processo
+const api_list_sccd  = process.env.API_LIST_SCCD
+const api_baixa_sccd = process.env.API_BAIXA_SCCD
 
 
 //(1) - ler SCCD disponiveis na API (Pegar lista criada pelo APP)
-function StartListaSCCD() {
-    loadAPI('GET','',api_list_sccd,{}).then((ret)=>{
+async function StartListaSCCD() {
+    await loadAPI('GET','',api_list_sccd,{}).then((ret)=>{
         lista_SCCD(ret)
     })
+    return 1
 }
 
 // (1.1) percorrer a lista
 function lista_SCCD({data}) {
+    let qtde = data.length
+    sendLog('INFO',`(011) Retorno da API. ( ${qtde} itens )`)
     data.forEach(element => {
         let newElemento = element
         newElemento.FILIAL = `${newElemento.DOCUMENTO}`.substr(0,3)
@@ -40,7 +40,7 @@ function baixarFoto(element) {
     let file = newElemento.ARQUIVO
     baixaImagem(file).then((ret)=>{
         pegarFilialUsuarioAPP(newElemento)
-        console.log('VER ARQUIVO:',ret)
+        sendLog('INFO',`(004) Obtendo imagem. (${file})`)
     })        
 }
 
@@ -49,8 +49,8 @@ function pegarFilialUsuarioAPP(element) {
     let newElemento = element
     let user = newElemento.USUARIO
     if(!user){
-        console.log('elemant:',element)
-        return
+        sendLog('WARNING',`(001) Não achou usuário em MySql. (${JSON.stringify(element)})`)
+        return 0
     }
     getUsuarioSCCD(user).then( async (dados)=>{
         let newElemento = element
@@ -58,12 +58,12 @@ function pegarFilialUsuarioAPP(element) {
             newElemento.FILIAL_APP = dados.data.FILIAL
             
             if(!newElemento.FILIAL_APP) {
-                console.log('ERRO - PONTO 1')
+                sendLog('ERRO FATAL',`(002) Não achou filial do usuário APP em MySql. (${JSON.stringify(element)})`)
                 process.exit(0)
             }
             criarDiretorios(newElemento)
         } else {
-          console.log('ERRO : VER USUÁRIO:',dados)
+            sendLog('ERRO',`(003) Obtendo dados do usuário APP em MySql. (${JSON.stringify(dados)})`)
         }  
     })
 }
@@ -75,6 +75,7 @@ function criarDiretorios(element) {
 
     
     if(tipo!=='CARTAFRETE') {
+        sendLog('AVISO',`(005) Não é CARTAFRETE. (${JSON.stringify(element)})`)
         return 0
     }
 
@@ -87,39 +88,64 @@ function criarDiretorios(element) {
         operacao: operacao,
         filial: filial_app
     }    
-    console.log('POS 1 - CriaDirSCCD')
     let ret = CriaDirSCCD(par)
     if(ret.success) {
         newElemento = element
         newElemento.DIR_DESTINO = ret.diretorio
         newElemento.CARTAFRETE  = cartaFrete
-        console.log('POS 2')
         copiarImagem(newElemento)
-        console.log('POS 3',newElemento)
     } else {
-        console.log('ERRO:',ret)
+        sendLog('ERRO',`(006) Criando diretorio. (${JSON.stringify(ret)})`)
     }
 }
 
 // (5) copia imagens relacionadas para os diretorios / renomeando
 async function copiarImagem(element) {
-    let mask        =  `${element.CARTAFRETE}_${element.FILIAL}`
+    let filial_app  =  element.FILIAL_APP
+    let mask        =  `${element.CARTAFRETE}_${filial_app}`
     let origem      =  `./downloads/${element.ARQUIVO}`
     let dir_destino =  element.DIR_DESTINO
     let newFile     =  await proximoArquivo(dir_destino,mask)
     let destino     =  `${dir_destino}/${newFile}`
+    let id          =  element.ID
     
     let copia = await copiarArquivo(origem,destino)
-    console.log('COPIA IMAGEM resultado:',copia)
+    sendLog('AVISO',`(007) Copia de arquivo: (${origem}) => (${destino}) >> (${JSON.stringify(copia)})`)
 
     let exclusao = await excluirArquivo(origem)
-    console.log('EXCLUSÃO IMAGEM ORIGEM resultado:',exclusao)
+    sendLog('AVISO',`(008) Exclusão de arquivo: (${origem}) >> (${JSON.stringify(exclusao)})`)
+
+    baixaSCCD(id,destino,filial_app)
 
 }
 
+// (6) baixa em API o SCCD (gravar "Data" e "Destino")
+function baixaSCCD(par_id,par_destino,par_filial_app) {
+    params ={
+        id: par_id,
+        destino: par_destino,
+        filial_app: par_filial_app
+    }
+    loadAPI('POST','',api_baixa_sccd,params).then((ret)=>{
+        sendLog('AVISO',`(009) Registro de Baixa SCCD na API: ID:(${par_id}) >> (${JSON.stringify(ret)})`)
+    })
+}
+
+// (7) insere dados no MySql (SCCD)
+// --- testa se ALB já foi incluido
+// --- se não foi pega dados na API
+// --- insere no MySql
+
+// (7.1) insere ANX no MySql
+// --- update FLAG em API
+
+// (8) conta 2 minutos e recomeça processo
 
 
 // start Processo
     connectDB().then( async ()=>{
-        StartListaSCCD()
+        StartListaSCCD().then(()=>{
+            sendLog('AVISO',`(010) StartListaSCCD`)
+        })
+        console.log('Startup BotSCCD.')
     })
