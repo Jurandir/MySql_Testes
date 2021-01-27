@@ -5,7 +5,7 @@ const dirBase = process.env.DIR_BASE || 'D:/New/temp'
 const CriaDirSCCD = (param) => {
 
     let dir = []
-    let cartaFrete  = `${param.cartaFrete}`.substr(0,3)+`${param.cartaFrete}`.substr(4)
+    let cartaFrete  = param.cartaFrete
     let origem      = `${cartaFrete}`.substr(0,3)  
     let operacao    = param.operacao
     let filial      = param.filial

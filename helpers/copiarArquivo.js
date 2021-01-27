@@ -1,7 +1,22 @@
 const fs = require('fs');
 
-// destination.txt will be created or overwritten by default.
-fs.copyFile('source.txt', 'destination.txt', (err) => {
-  if (err) throw err;
-  console.log('source.txt was copied to destination.txt');
-});
+const copiarArquivo = (origem,destino) => new Promise((resolve, reject) => {
+  fs.copyFile(origem,destino, (err) => {
+      let retorno = {
+        success: false,
+        message: '',
+        origem: origem,
+        destino: destino
+      }
+      if(err) {
+        retorno.message = err
+        reject(retorno)
+      } else {
+        retorno.success = true
+        retorno.message = 'Copia. OK.'
+        resolve(retorno)
+      }
+  })
+})
+
+module.exports = copiarArquivo

@@ -1,7 +1,10 @@
 const CriaDirSCCD = require('./helpers/CriaDirSCCD')
 const loadAPI = require('./helpers/loadAPI')
 const baixaImagem = require('./helpers/baixaImagem')
-getUsuarioSCCD = require('./controllers/getUsuarioSCCD')
+const getUsuarioSCCD = require('./controllers/getUsuarioSCCD')
+const proximoArquivo = require('./helpers/proximoArquivo')
+const copiarArquivo = require('./helpers/copiarArquivo')
+const excluirArquivo = require('./helpers/excluirArquivo')
 const {connectDB,desconnectDB,sqlQueryDB}  = require('./connections/MySQL')
 
 
@@ -25,7 +28,9 @@ function StartListaSCCD() {
 // (1.1) percorrer a lista
 function lista_SCCD({data}) {
     data.forEach(element => {
-        baixarFoto(element)
+        let newElemento = element
+        newElemento.FILIAL = `${newElemento.DOCUMENTO}`.substr(0,3)
+        baixarFoto(newElemento)
     })
 }
 
@@ -52,8 +57,6 @@ function pegarFilialUsuarioAPP(element) {
         if(dados.success==true){
             newElemento.FILIAL_APP = dados.data.FILIAL
             
-            console.log('***** : VER USUÁRIO:',dados)
-
             if(!newElemento.FILIAL_APP) {
                 console.log('ERRO - PONTO 1')
                 process.exit(0)
@@ -67,30 +70,51 @@ function pegarFilialUsuarioAPP(element) {
 
 // (4) cria diretorios relacionados
 function criarDiretorios(element) {
-    console.log('criarDiretorios (ENTRADA):',element)
-    
+    let newElemento = {}    
     let tipo       = element.TIPO
+
     
     if(tipo!=='CARTAFRETE') {
         return 0
     }
 
-    let cartaFrete = element.DOCUMENTO
-    let operacao   = element.OPERACAO
-    let filial_app = element.FILIAL_APP
+    let cartaFrete  = `${element.DOCUMENTO}`.substr(0,3)+`${element.DOCUMENTO}`.substr(4)
+    let operacao    = element.OPERACAO
+    let filial_app  = element.FILIAL_APP
     
     let par  = {
         cartaFrete: cartaFrete,
         operacao: operacao,
         filial: filial_app
     }    
+    console.log('POS 1 - CriaDirSCCD')
     let ret = CriaDirSCCD(par)
-    console.log('CRIAÇÃO DIRETORIO:',par)
+    if(ret.success) {
+        newElemento = element
+        newElemento.DIR_DESTINO = ret.diretorio
+        newElemento.CARTAFRETE  = cartaFrete
+        console.log('POS 2')
+        copiarImagem(newElemento)
+        console.log('POS 3',newElemento)
+    } else {
+        console.log('ERRO:',ret)
+    }
 }
 
 // (5) copia imagens relacionadas para os diretorios / renomeando
-function copiarImagem(element) {
+async function copiarImagem(element) {
+    let mask        =  `${element.CARTAFRETE}_${element.FILIAL}`
+    let origem      =  `./downloads/${element.ARQUIVO}`
+    let dir_destino =  element.DIR_DESTINO
+    let newFile     =  await proximoArquivo(dir_destino,mask)
+    let destino     =  `${dir_destino}/${newFile}`
     
+    let copia = await copiarArquivo(origem,destino)
+    console.log('COPIA IMAGEM resultado:',copia)
+
+    let exclusao = await excluirArquivo(origem)
+    console.log('EXCLUSÃO IMAGEM ORIGEM resultado:',exclusao)
+
 }
 
 
