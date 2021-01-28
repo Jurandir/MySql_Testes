@@ -11,7 +11,7 @@ if(node_env==='Production'){
    config = production 
 }  
 
-console.log('NODE Modo:',node_env,config)
+console.log('*** NODE Mode:',node_env)
 
 const MySQL = {
   connectDB: async function() {
