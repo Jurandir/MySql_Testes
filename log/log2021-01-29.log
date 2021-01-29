@@ -1,0 +1,1638 @@
+2021-01-29T09:14:41 - INFO - (011) Retorno da API. ( 5 itens )
+2021-01-29T09:14:41 - INFO - (010) StartListaSCCD / 1
+2021-01-29T09:14:41 - INFO - (004) Obtendo imagem. (d3131cc9-4d94-49d6-ba31-0d5319f4941b.jpg)
+2021-01-29T09:14:41 - INFO - (004) Obtendo imagem. (92f51edf-80e8-449c-93d9-e4d4f4c95317.jpg)
+2021-01-29T09:14:41 - ERRO - (013) Problemas, Copia ou Exclusão: (./downloads/92f51edf-80e8-449c-93d9-e4d4f4c95317.jpg) => (D:/New/temp/SAV/SAV6271/CARGA/FOR/SAV6271_FOR_img_3.jpg)
+2021-01-29T09:14:41 - AVISO - (007) Copia de arquivo: (./downloads/d3131cc9-4d94-49d6-ba31-0d5319f4941b.jpg) => (D:/New/temp/SAV/SAV6271/CARGA/FOR/SAV6271_FOR_img_3.jpg) >> ({"success":true,"message":"Copia. OK.","origem":"./downloads/d3131cc9-4d94-49d6-ba31-0d5319f4941b.jpg","destino":"D:/New/temp/SAV/SAV6271/CARGA/FOR/SAV6271_FOR_img_3.jpg"})
+2021-01-29T09:14:41 - AVISO - (008) Exclusão de arquivo: (./downloads/d3131cc9-4d94-49d6-ba31-0d5319f4941b.jpg) >> ({"success":true,"message":"Exclusão. OK.","file":"./downloads/d3131cc9-4d94-49d6-ba31-0d5319f4941b.jpg"})
+2021-01-29T09:14:41 - AVISO - (009) Registro de Baixa SCCD na API: ID:(36) >> ({"rowsAffected":1,"msg":"OK","Erro":"","success":true,"message":"Baixado com sucesso !!!","id":36})
+2021-01-29T09:14:41 - INFO - (004) Obtendo imagem. (a5950a41-1e93-482a-bdc6-e1109fba4d02.jpg)
+2021-01-29T09:14:41 - INFO - (004) Obtendo imagem. (c61d1e31-41cb-4032-8a10-cad94dba8195.jpg)
+2021-01-29T09:14:41 - INFO - (004) Obtendo imagem. (37279b69-0693-466b-8eaf-a3af8bf81b84.jpg)
+2021-01-29T09:14:42 - AVISO - (020) Registro incluido com sucesso ALB : ID:(816348) >> ({"fieldCount":0,"affectedRows":1,"insertId":816348,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T09:14:42 - AVISO - (007) Copia de arquivo: (./downloads/c61d1e31-41cb-4032-8a10-cad94dba8195.jpg) => (D:/New/temp/SPO/SPO56099/DESCARGA/FOR/SPO56099_FOR_img_1.jpg) >> ({"success":true,"message":"Copia. OK.","origem":"./downloads/c61d1e31-41cb-4032-8a10-cad94dba8195.jpg","destino":"D:/New/temp/SPO/SPO56099/DESCARGA/FOR/SPO56099_FOR_img_1.jpg"})
+2021-01-29T09:14:42 - AVISO - (008) Exclusão de arquivo: (./downloads/c61d1e31-41cb-4032-8a10-cad94dba8195.jpg) >> ({"success":true,"message":"Exclusão. OK.","file":"./downloads/c61d1e31-41cb-4032-8a10-cad94dba8195.jpg"})
+2021-01-29T09:14:42 - AVISO - (007) Copia de arquivo: (./downloads/37279b69-0693-466b-8eaf-a3af8bf81b84.jpg) => (D:/New/temp/SAV/SAV6271/CARGA/FOR/SAV6271_FOR_img_4.jpg) >> ({"success":true,"message":"Copia. OK.","origem":"./downloads/37279b69-0693-466b-8eaf-a3af8bf81b84.jpg","destino":"D:/New/temp/SAV/SAV6271/CARGA/FOR/SAV6271_FOR_img_4.jpg"})
+2021-01-29T09:14:42 - AVISO - (008) Exclusão de arquivo: (./downloads/37279b69-0693-466b-8eaf-a3af8bf81b84.jpg) >> ({"success":true,"message":"Exclusão. OK.","file":"./downloads/37279b69-0693-466b-8eaf-a3af8bf81b84.jpg"})
+2021-01-29T09:14:42 - AVISO - (009) Registro de Baixa SCCD na API: ID:(38) >> ({"rowsAffected":1,"msg":"OK","Erro":"","success":true,"message":"Baixado com sucesso !!!","id":38})
+2021-01-29T09:14:42 - AVISO - (009) Registro de Baixa SCCD na API: ID:(39) >> ({"rowsAffected":1,"msg":"OK","Erro":"","success":true,"message":"Baixado com sucesso !!!","id":39})
+2021-01-29T09:14:42 - SUCESSO - (049) Processo concluido na API: ID:(36)
+2021-01-29T09:14:43 - AVISO - (020) Registro incluido com sucesso ALB : ID:(816349) >> ({"fieldCount":0,"affectedRows":1,"insertId":816349,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T09:14:43 - AVISO - (020) Registro incluido com sucesso ALB : ID:(816350) >> ({"fieldCount":0,"affectedRows":1,"insertId":816350,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T09:14:43 - AVISO - (030) Registro incluido com sucesso ANX : ID:(102734) >> ({"fieldCount":0,"affectedRows":1,"insertId":102734,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T09:14:43 - SUCESSO - (049) Processo concluido na API: ID:(39)
+2021-01-29T09:14:43 - SUCESSO - (049) Processo concluido na API: ID:(38)
+2021-01-29T09:15:11 - INFO - (011) Retorno da API. ( 2 itens )
+2021-01-29T09:15:11 - INFO - (010) StartListaSCCD / 2
+2021-01-29T09:15:11 - INFO - (004) Obtendo imagem. (92f51edf-80e8-449c-93d9-e4d4f4c95317.jpg)
+2021-01-29T09:15:11 - AVISO - (007) Copia de arquivo: (./downloads/92f51edf-80e8-449c-93d9-e4d4f4c95317.jpg) => (D:/New/temp/SAV/SAV6271/CARGA/FOR/SAV6271_FOR_img_5.jpg) >> ({"success":true,"message":"Copia. OK.","origem":"./downloads/92f51edf-80e8-449c-93d9-e4d4f4c95317.jpg","destino":"D:/New/temp/SAV/SAV6271/CARGA/FOR/SAV6271_FOR_img_5.jpg"})
+2021-01-29T09:15:11 - AVISO - (008) Exclusão de arquivo: (./downloads/92f51edf-80e8-449c-93d9-e4d4f4c95317.jpg) >> ({"success":true,"message":"Exclusão. OK.","file":"./downloads/92f51edf-80e8-449c-93d9-e4d4f4c95317.jpg"})
+2021-01-29T09:15:11 - INFO - (004) Obtendo imagem. (a5950a41-1e93-482a-bdc6-e1109fba4d02.jpg)
+2021-01-29T09:15:11 - AVISO - (007) Copia de arquivo: (./downloads/a5950a41-1e93-482a-bdc6-e1109fba4d02.jpg) => (D:/New/temp/SPO/SPO56099/CARGA/FOR/SPO56099_FOR_img_1.jpg) >> ({"success":true,"message":"Copia. OK.","origem":"./downloads/a5950a41-1e93-482a-bdc6-e1109fba4d02.jpg","destino":"D:/New/temp/SPO/SPO56099/CARGA/FOR/SPO56099_FOR_img_1.jpg"})
+2021-01-29T09:15:11 - AVISO - (008) Exclusão de arquivo: (./downloads/a5950a41-1e93-482a-bdc6-e1109fba4d02.jpg) >> ({"success":true,"message":"Exclusão. OK.","file":"./downloads/a5950a41-1e93-482a-bdc6-e1109fba4d02.jpg"})
+2021-01-29T09:15:11 - AVISO - (009) Registro de Baixa SCCD na API: ID:(35) >> ({"rowsAffected":1,"msg":"OK","Erro":"","success":true,"message":"Baixado com sucesso !!!","id":35})
+2021-01-29T09:15:11 - AVISO - (009) Registro de Baixa SCCD na API: ID:(37) >> ({"rowsAffected":1,"msg":"OK","Erro":"","success":true,"message":"Baixado com sucesso !!!","id":37})
+2021-01-29T09:15:12 - AVISO - (020) Registro incluido com sucesso ALB : ID:(816351) >> ({"fieldCount":0,"affectedRows":1,"insertId":816351,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T09:15:12 - AVISO - (020) Registro incluido com sucesso ALB : ID:(816352) >> ({"fieldCount":0,"affectedRows":1,"insertId":816352,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T09:15:12 - AVISO - (030) Registro incluido com sucesso ANX : ID:(102735) >> ({"fieldCount":0,"affectedRows":1,"insertId":102735,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T09:15:12 - SUCESSO - (049) Processo concluido na API: ID:(35)
+2021-01-29T09:15:12 - SUCESSO - (049) Processo concluido na API: ID:(37)
+2021-01-29T09:15:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:15:41 - INFO - (010) StartListaSCCD / 3
+2021-01-29T09:16:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:16:11 - INFO - (010) StartListaSCCD / 4
+2021-01-29T09:16:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:16:41 - INFO - (010) StartListaSCCD / 5
+2021-01-29T09:17:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:17:11 - INFO - (010) StartListaSCCD / 6
+2021-01-29T09:17:41 - INFO - (010) StartListaSCCD / 7
+2021-01-29T09:17:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:18:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:18:11 - INFO - (010) StartListaSCCD / 8
+2021-01-29T09:18:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:18:41 - INFO - (010) StartListaSCCD / 9
+2021-01-29T09:19:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:19:11 - INFO - (010) StartListaSCCD / 10
+2021-01-29T09:19:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:19:41 - INFO - (010) StartListaSCCD / 11
+2021-01-29T09:20:11 - INFO - (010) StartListaSCCD / 12
+2021-01-29T09:20:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:20:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:20:41 - INFO - (010) StartListaSCCD / 13
+2021-01-29T09:21:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:21:11 - INFO - (010) StartListaSCCD / 14
+2021-01-29T09:21:41 - INFO - (010) StartListaSCCD / 15
+2021-01-29T09:21:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:22:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:22:11 - INFO - (010) StartListaSCCD / 16
+2021-01-29T09:22:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:22:41 - INFO - (010) StartListaSCCD / 17
+2021-01-29T09:23:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:23:11 - INFO - (010) StartListaSCCD / 18
+2021-01-29T09:23:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:23:41 - INFO - (010) StartListaSCCD / 19
+2021-01-29T09:24:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:24:11 - INFO - (010) StartListaSCCD / 20
+2021-01-29T09:24:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:24:41 - INFO - (010) StartListaSCCD / 21
+2021-01-29T09:25:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:25:11 - INFO - (010) StartListaSCCD / 22
+2021-01-29T09:25:41 - INFO - (010) StartListaSCCD / 23
+2021-01-29T09:25:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:26:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:26:11 - INFO - (010) StartListaSCCD / 24
+2021-01-29T09:26:41 - INFO - (010) StartListaSCCD / 25
+2021-01-29T09:26:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:27:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:27:11 - INFO - (010) StartListaSCCD / 26
+2021-01-29T09:27:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:27:41 - INFO - (010) StartListaSCCD / 27
+2021-01-29T09:28:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:28:11 - INFO - (010) StartListaSCCD / 28
+2021-01-29T09:28:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:28:41 - INFO - (010) StartListaSCCD / 29
+2021-01-29T09:29:11 - INFO - (010) StartListaSCCD / 30
+2021-01-29T09:29:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:29:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:29:41 - INFO - (010) StartListaSCCD / 31
+2021-01-29T09:30:11 - INFO - (010) StartListaSCCD / 32
+2021-01-29T09:30:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:30:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:30:41 - INFO - (010) StartListaSCCD / 33
+2021-01-29T09:31:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:31:11 - INFO - (010) StartListaSCCD / 34
+2021-01-29T09:31:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:31:41 - INFO - (010) StartListaSCCD / 35
+2021-01-29T09:32:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:32:11 - INFO - (010) StartListaSCCD / 36
+2021-01-29T09:32:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:32:41 - INFO - (010) StartListaSCCD / 37
+2021-01-29T09:33:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:33:11 - INFO - (010) StartListaSCCD / 38
+2021-01-29T09:33:41 - INFO - (010) StartListaSCCD / 39
+2021-01-29T09:33:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:34:11 - INFO - (010) StartListaSCCD / 40
+2021-01-29T09:34:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:34:41 - INFO - (010) StartListaSCCD / 41
+2021-01-29T09:34:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:35:11 - INFO - (010) StartListaSCCD / 42
+2021-01-29T09:35:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:35:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:35:41 - INFO - (010) StartListaSCCD / 43
+2021-01-29T09:36:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:36:11 - INFO - (010) StartListaSCCD / 44
+2021-01-29T09:36:41 - INFO - (010) StartListaSCCD / 45
+2021-01-29T09:36:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:37:11 - INFO - (010) StartListaSCCD / 46
+2021-01-29T09:37:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:37:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:37:41 - INFO - (010) StartListaSCCD / 47
+2021-01-29T09:38:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:38:11 - INFO - (010) StartListaSCCD / 48
+2021-01-29T09:38:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:38:41 - INFO - (010) StartListaSCCD / 49
+2021-01-29T09:39:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:39:11 - INFO - (010) StartListaSCCD / 50
+2021-01-29T09:39:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:39:41 - INFO - (010) StartListaSCCD / 51
+2021-01-29T09:40:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:40:11 - INFO - (010) StartListaSCCD / 52
+2021-01-29T09:40:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:40:41 - INFO - (010) StartListaSCCD / 53
+2021-01-29T09:41:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:41:11 - INFO - (010) StartListaSCCD / 54
+2021-01-29T09:41:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:41:41 - INFO - (010) StartListaSCCD / 55
+2021-01-29T09:42:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:42:11 - INFO - (010) StartListaSCCD / 56
+2021-01-29T09:42:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:42:41 - INFO - (010) StartListaSCCD / 57
+2021-01-29T09:43:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:43:11 - INFO - (010) StartListaSCCD / 58
+2021-01-29T09:43:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:43:41 - INFO - (010) StartListaSCCD / 59
+2021-01-29T09:44:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:44:11 - INFO - (010) StartListaSCCD / 60
+2021-01-29T09:44:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:44:41 - INFO - (010) StartListaSCCD / 61
+2021-01-29T09:45:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:45:11 - INFO - (010) StartListaSCCD / 62
+2021-01-29T09:45:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:45:41 - INFO - (010) StartListaSCCD / 63
+2021-01-29T09:46:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:46:11 - INFO - (010) StartListaSCCD / 64
+2021-01-29T09:46:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:46:41 - INFO - (010) StartListaSCCD / 65
+2021-01-29T09:47:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:47:11 - INFO - (010) StartListaSCCD / 66
+2021-01-29T09:47:41 - INFO - (010) StartListaSCCD / 67
+2021-01-29T09:47:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:48:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:48:11 - INFO - (010) StartListaSCCD / 68
+2021-01-29T09:48:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:48:41 - INFO - (010) StartListaSCCD / 69
+2021-01-29T09:49:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:49:11 - INFO - (010) StartListaSCCD / 70
+2021-01-29T09:49:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:49:41 - INFO - (010) StartListaSCCD / 71
+2021-01-29T09:50:11 - INFO - (010) StartListaSCCD / 72
+2021-01-29T09:50:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:50:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:50:41 - INFO - (010) StartListaSCCD / 73
+2021-01-29T09:51:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:51:11 - INFO - (010) StartListaSCCD / 74
+2021-01-29T09:51:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:51:41 - INFO - (010) StartListaSCCD / 75
+2021-01-29T09:52:11 - INFO - (010) StartListaSCCD / 76
+2021-01-29T09:52:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:52:41 - INFO - (010) StartListaSCCD / 77
+2021-01-29T09:52:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:53:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:53:11 - INFO - (010) StartListaSCCD / 78
+2021-01-29T09:53:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:53:41 - INFO - (010) StartListaSCCD / 79
+2021-01-29T09:54:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:54:11 - INFO - (010) StartListaSCCD / 80
+2021-01-29T09:54:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:54:41 - INFO - (010) StartListaSCCD / 81
+2021-01-29T09:55:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:55:11 - INFO - (010) StartListaSCCD / 82
+2021-01-29T09:55:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:55:41 - INFO - (010) StartListaSCCD / 83
+2021-01-29T09:56:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:56:11 - INFO - (010) StartListaSCCD / 84
+2021-01-29T09:56:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:56:41 - INFO - (010) StartListaSCCD / 85
+2021-01-29T09:57:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:57:11 - INFO - (010) StartListaSCCD / 86
+2021-01-29T09:57:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:57:41 - INFO - (010) StartListaSCCD / 87
+2021-01-29T09:58:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:58:11 - INFO - (010) StartListaSCCD / 88
+2021-01-29T09:58:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:58:41 - INFO - (010) StartListaSCCD / 89
+2021-01-29T09:59:11 - INFO - (010) StartListaSCCD / 90
+2021-01-29T09:59:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:59:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T09:59:41 - INFO - (010) StartListaSCCD / 91
+2021-01-29T10:00:11 - INFO - (010) StartListaSCCD / 92
+2021-01-29T10:00:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:00:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:00:41 - INFO - (010) StartListaSCCD / 93
+2021-01-29T10:01:11 - INFO - (010) StartListaSCCD / 94
+2021-01-29T10:01:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:01:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:01:41 - INFO - (010) StartListaSCCD / 95
+2021-01-29T10:02:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:02:11 - INFO - (010) StartListaSCCD / 96
+2021-01-29T10:02:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:02:41 - INFO - (010) StartListaSCCD / 97
+2021-01-29T10:03:11 - INFO - (010) StartListaSCCD / 98
+2021-01-29T10:03:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:03:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:03:41 - INFO - (010) StartListaSCCD / 99
+2021-01-29T10:04:11 - INFO - (010) StartListaSCCD / 100
+2021-01-29T10:04:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:04:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:04:41 - INFO - (010) StartListaSCCD / 101
+2021-01-29T10:05:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:05:11 - INFO - (010) StartListaSCCD / 102
+2021-01-29T10:05:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:05:41 - INFO - (010) StartListaSCCD / 103
+2021-01-29T10:06:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:06:11 - INFO - (010) StartListaSCCD / 104
+2021-01-29T10:06:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:06:41 - INFO - (010) StartListaSCCD / 105
+2021-01-29T10:07:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:07:11 - INFO - (010) StartListaSCCD / 106
+2021-01-29T10:07:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:07:41 - INFO - (010) StartListaSCCD / 107
+2021-01-29T10:08:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:08:11 - INFO - (010) StartListaSCCD / 108
+2021-01-29T10:08:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:08:41 - INFO - (010) StartListaSCCD / 109
+2021-01-29T10:09:11 - INFO - (010) StartListaSCCD / 110
+2021-01-29T10:09:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:09:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:09:41 - INFO - (010) StartListaSCCD / 111
+2021-01-29T10:10:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:10:11 - INFO - (010) StartListaSCCD / 112
+2021-01-29T10:10:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:10:41 - INFO - (010) StartListaSCCD / 113
+2021-01-29T10:11:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:11:11 - INFO - (010) StartListaSCCD / 114
+2021-01-29T10:11:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:11:41 - INFO - (010) StartListaSCCD / 115
+2021-01-29T10:12:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:12:11 - INFO - (010) StartListaSCCD / 116
+2021-01-29T10:12:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:12:41 - INFO - (010) StartListaSCCD / 117
+2021-01-29T10:13:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:13:11 - INFO - (010) StartListaSCCD / 118
+2021-01-29T10:13:41 - INFO - (010) StartListaSCCD / 119
+2021-01-29T10:13:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:14:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:14:11 - INFO - (010) StartListaSCCD / 120
+2021-01-29T10:14:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:14:41 - INFO - (010) StartListaSCCD / 121
+2021-01-29T10:15:11 - INFO - (010) StartListaSCCD / 122
+2021-01-29T10:15:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:15:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:15:41 - INFO - (010) StartListaSCCD / 123
+2021-01-29T10:16:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:16:11 - INFO - (010) StartListaSCCD / 124
+2021-01-29T10:16:41 - INFO - (010) StartListaSCCD / 125
+2021-01-29T10:16:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:17:11 - INFO - (010) StartListaSCCD / 126
+2021-01-29T10:17:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:17:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:17:41 - INFO - (010) StartListaSCCD / 127
+2021-01-29T10:18:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:18:11 - INFO - (010) StartListaSCCD / 128
+2021-01-29T10:18:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:18:41 - INFO - (010) StartListaSCCD / 129
+2021-01-29T10:19:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:19:11 - INFO - (010) StartListaSCCD / 130
+2021-01-29T10:19:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:19:41 - INFO - (010) StartListaSCCD / 131
+2021-01-29T10:20:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:20:11 - INFO - (010) StartListaSCCD / 132
+2021-01-29T10:20:41 - INFO - (010) StartListaSCCD / 133
+2021-01-29T10:20:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:21:11 - INFO - (010) StartListaSCCD / 134
+2021-01-29T10:21:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:21:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:21:41 - INFO - (010) StartListaSCCD / 135
+2021-01-29T10:22:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:22:11 - INFO - (010) StartListaSCCD / 136
+2021-01-29T10:22:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:22:41 - INFO - (010) StartListaSCCD / 137
+2021-01-29T10:23:11 - INFO - (010) StartListaSCCD / 138
+2021-01-29T10:23:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:23:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:23:41 - INFO - (010) StartListaSCCD / 139
+2021-01-29T10:24:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:24:11 - INFO - (010) StartListaSCCD / 140
+2021-01-29T10:24:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:24:41 - INFO - (010) StartListaSCCD / 141
+2021-01-29T10:25:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:25:11 - INFO - (010) StartListaSCCD / 142
+2021-01-29T10:25:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:25:41 - INFO - (010) StartListaSCCD / 143
+2021-01-29T10:26:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:26:11 - INFO - (010) StartListaSCCD / 144
+2021-01-29T10:26:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:26:41 - INFO - (010) StartListaSCCD / 145
+2021-01-29T10:27:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:27:11 - INFO - (010) StartListaSCCD / 146
+2021-01-29T10:27:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:27:41 - INFO - (010) StartListaSCCD / 147
+2021-01-29T10:28:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:28:11 - INFO - (010) StartListaSCCD / 148
+2021-01-29T10:28:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:28:41 - INFO - (010) StartListaSCCD / 149
+2021-01-29T10:29:11 - INFO - (010) StartListaSCCD / 150
+2021-01-29T10:29:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:29:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:29:41 - INFO - (010) StartListaSCCD / 151
+2021-01-29T10:30:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:30:11 - INFO - (010) StartListaSCCD / 152
+2021-01-29T10:30:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:30:41 - INFO - (010) StartListaSCCD / 153
+2021-01-29T10:31:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:31:11 - INFO - (010) StartListaSCCD / 154
+2021-01-29T10:31:41 - INFO - (010) StartListaSCCD / 155
+2021-01-29T10:31:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:32:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:32:11 - INFO - (010) StartListaSCCD / 156
+2021-01-29T10:32:41 - INFO - (010) StartListaSCCD / 157
+2021-01-29T10:32:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:33:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:33:11 - INFO - (010) StartListaSCCD / 158
+2021-01-29T10:33:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:33:41 - INFO - (010) StartListaSCCD / 159
+2021-01-29T10:34:11 - INFO - (010) StartListaSCCD / 160
+2021-01-29T10:34:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:34:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:34:41 - INFO - (010) StartListaSCCD / 161
+2021-01-29T10:35:11 - INFO - (010) StartListaSCCD / 162
+2021-01-29T10:35:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:35:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:35:41 - INFO - (010) StartListaSCCD / 163
+2021-01-29T10:36:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:36:11 - INFO - (010) StartListaSCCD / 164
+2021-01-29T10:36:41 - INFO - (010) StartListaSCCD / 165
+2021-01-29T10:36:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:37:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:37:11 - INFO - (010) StartListaSCCD / 166
+2021-01-29T10:37:41 - INFO - (010) StartListaSCCD / 167
+2021-01-29T10:37:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:38:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:38:11 - INFO - (010) StartListaSCCD / 168
+2021-01-29T10:38:41 - INFO - (010) StartListaSCCD / 169
+2021-01-29T10:38:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:39:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:39:11 - INFO - (010) StartListaSCCD / 170
+2021-01-29T10:39:41 - INFO - (010) StartListaSCCD / 171
+2021-01-29T10:39:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:40:11 - INFO - (010) StartListaSCCD / 172
+2021-01-29T10:40:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:40:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:40:41 - INFO - (010) StartListaSCCD / 173
+2021-01-29T10:41:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:41:11 - INFO - (010) StartListaSCCD / 174
+2021-01-29T10:41:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:41:41 - INFO - (010) StartListaSCCD / 175
+2021-01-29T10:42:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:42:11 - INFO - (010) StartListaSCCD / 176
+2021-01-29T10:42:41 - INFO - (010) StartListaSCCD / 177
+2021-01-29T10:42:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:43:11 - INFO - (010) StartListaSCCD / 178
+2021-01-29T10:43:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:43:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:43:41 - INFO - (010) StartListaSCCD / 179
+2021-01-29T10:44:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:44:11 - INFO - (010) StartListaSCCD / 180
+2021-01-29T10:44:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:44:41 - INFO - (010) StartListaSCCD / 181
+2021-01-29T10:45:11 - INFO - (010) StartListaSCCD / 182
+2021-01-29T10:45:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:45:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:45:41 - INFO - (010) StartListaSCCD / 183
+2021-01-29T10:46:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:46:11 - INFO - (010) StartListaSCCD / 184
+2021-01-29T10:46:41 - INFO - (010) StartListaSCCD / 185
+2021-01-29T10:46:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:47:11 - INFO - (010) StartListaSCCD / 186
+2021-01-29T10:47:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:47:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:47:41 - INFO - (010) StartListaSCCD / 187
+2021-01-29T10:48:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:48:11 - INFO - (010) StartListaSCCD / 188
+2021-01-29T10:48:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:48:41 - INFO - (010) StartListaSCCD / 189
+2021-01-29T10:49:11 - INFO - (010) StartListaSCCD / 190
+2021-01-29T10:49:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:49:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:49:41 - INFO - (010) StartListaSCCD / 191
+2021-01-29T10:50:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:50:11 - INFO - (010) StartListaSCCD / 192
+2021-01-29T10:50:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:50:41 - INFO - (010) StartListaSCCD / 193
+2021-01-29T10:51:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:51:11 - INFO - (010) StartListaSCCD / 194
+2021-01-29T10:51:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:51:41 - INFO - (010) StartListaSCCD / 195
+2021-01-29T10:52:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:52:11 - INFO - (010) StartListaSCCD / 196
+2021-01-29T10:52:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:52:41 - INFO - (010) StartListaSCCD / 197
+2021-01-29T10:53:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:53:11 - INFO - (010) StartListaSCCD / 198
+2021-01-29T10:53:41 - INFO - (010) StartListaSCCD / 199
+2021-01-29T10:53:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:54:11 - INFO - (010) StartListaSCCD / 200
+2021-01-29T10:54:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:54:41 - INFO - (010) StartListaSCCD / 201
+2021-01-29T10:54:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:55:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:55:11 - INFO - (010) StartListaSCCD / 202
+2021-01-29T10:55:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:55:41 - INFO - (010) StartListaSCCD / 203
+2021-01-29T10:56:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:56:11 - INFO - (010) StartListaSCCD / 204
+2021-01-29T10:56:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:56:41 - INFO - (010) StartListaSCCD / 205
+2021-01-29T10:57:11 - INFO - (010) StartListaSCCD / 206
+2021-01-29T10:57:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:57:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:57:41 - INFO - (010) StartListaSCCD / 207
+2021-01-29T10:58:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:58:11 - INFO - (010) StartListaSCCD / 208
+2021-01-29T10:58:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:58:41 - INFO - (010) StartListaSCCD / 209
+2021-01-29T10:59:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:59:11 - INFO - (010) StartListaSCCD / 210
+2021-01-29T10:59:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T10:59:41 - INFO - (010) StartListaSCCD / 211
+2021-01-29T11:00:11 - INFO - (010) StartListaSCCD / 212
+2021-01-29T11:00:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:00:41 - INFO - (010) StartListaSCCD / 213
+2021-01-29T11:00:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:01:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:01:11 - INFO - (010) StartListaSCCD / 214
+2021-01-29T11:01:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:01:41 - INFO - (010) StartListaSCCD / 215
+2021-01-29T11:02:11 - INFO - (010) StartListaSCCD / 216
+2021-01-29T11:02:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:02:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:02:41 - INFO - (010) StartListaSCCD / 217
+2021-01-29T11:03:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:03:11 - INFO - (010) StartListaSCCD / 218
+2021-01-29T11:03:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:03:41 - INFO - (010) StartListaSCCD / 219
+2021-01-29T11:04:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:04:11 - INFO - (010) StartListaSCCD / 220
+2021-01-29T11:04:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:04:41 - INFO - (010) StartListaSCCD / 221
+2021-01-29T11:05:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:05:11 - INFO - (010) StartListaSCCD / 222
+2021-01-29T11:05:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:05:41 - INFO - (010) StartListaSCCD / 223
+2021-01-29T11:06:11 - INFO - (010) StartListaSCCD / 224
+2021-01-29T11:06:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:06:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:06:41 - INFO - (010) StartListaSCCD / 225
+2021-01-29T11:07:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:07:11 - INFO - (010) StartListaSCCD / 226
+2021-01-29T11:07:41 - INFO - (010) StartListaSCCD / 227
+2021-01-29T11:07:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:08:11 - INFO - (010) StartListaSCCD / 228
+2021-01-29T11:08:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:08:41 - INFO - (010) StartListaSCCD / 229
+2021-01-29T11:08:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:09:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:09:11 - INFO - (010) StartListaSCCD / 230
+2021-01-29T11:09:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:09:41 - INFO - (010) StartListaSCCD / 231
+2021-01-29T11:10:11 - INFO - (010) StartListaSCCD / 232
+2021-01-29T11:10:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:10:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:10:41 - INFO - (010) StartListaSCCD / 233
+2021-01-29T11:11:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:11:11 - INFO - (010) StartListaSCCD / 234
+2021-01-29T11:11:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:11:41 - INFO - (010) StartListaSCCD / 235
+2021-01-29T11:12:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:12:11 - INFO - (010) StartListaSCCD / 236
+2021-01-29T11:12:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:12:41 - INFO - (010) StartListaSCCD / 237
+2021-01-29T11:13:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:13:11 - INFO - (010) StartListaSCCD / 238
+2021-01-29T11:13:41 - INFO - (010) StartListaSCCD / 239
+2021-01-29T11:13:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:14:11 - INFO - (010) StartListaSCCD / 240
+2021-01-29T11:14:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:14:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:14:41 - INFO - (010) StartListaSCCD / 241
+2021-01-29T11:15:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:15:11 - INFO - (010) StartListaSCCD / 242
+2021-01-29T11:15:41 - INFO - (010) StartListaSCCD / 243
+2021-01-29T11:15:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:16:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:16:11 - INFO - (010) StartListaSCCD / 244
+2021-01-29T11:16:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:16:41 - INFO - (010) StartListaSCCD / 245
+2021-01-29T11:17:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:17:11 - INFO - (010) StartListaSCCD / 246
+2021-01-29T11:17:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:17:41 - INFO - (010) StartListaSCCD / 247
+2021-01-29T11:18:11 - INFO - (010) StartListaSCCD / 248
+2021-01-29T11:18:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:18:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:18:41 - INFO - (010) StartListaSCCD / 249
+2021-01-29T11:19:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:19:11 - INFO - (010) StartListaSCCD / 250
+2021-01-29T11:19:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:19:41 - INFO - (010) StartListaSCCD / 251
+2021-01-29T11:20:11 - INFO - (010) StartListaSCCD / 252
+2021-01-29T11:20:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:20:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:20:41 - INFO - (010) StartListaSCCD / 253
+2021-01-29T11:21:11 - INFO - (010) StartListaSCCD / 254
+2021-01-29T11:21:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:21:41 - INFO - (010) StartListaSCCD / 255
+2021-01-29T11:21:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:22:11 - INFO - (010) StartListaSCCD / 256
+2021-01-29T11:22:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:22:43 - INFO - (010) StartListaSCCD / 257
+2021-01-29T11:22:43 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:23:11 - INFO - (010) StartListaSCCD / 258
+2021-01-29T11:23:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:23:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:23:41 - INFO - (010) StartListaSCCD / 259
+2021-01-29T11:24:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:24:11 - INFO - (010) StartListaSCCD / 260
+2021-01-29T11:24:41 - INFO - (010) StartListaSCCD / 261
+2021-01-29T11:24:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:25:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:25:11 - INFO - (010) StartListaSCCD / 262
+2021-01-29T11:25:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:25:41 - INFO - (010) StartListaSCCD / 263
+2021-01-29T11:26:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:26:11 - INFO - (010) StartListaSCCD / 264
+2021-01-29T11:26:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:26:41 - INFO - (010) StartListaSCCD / 265
+2021-01-29T11:27:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:27:11 - INFO - (010) StartListaSCCD / 266
+2021-01-29T11:27:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:27:41 - INFO - (010) StartListaSCCD / 267
+2021-01-29T11:28:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:28:11 - INFO - (010) StartListaSCCD / 268
+2021-01-29T11:28:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:28:41 - INFO - (010) StartListaSCCD / 269
+2021-01-29T11:29:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:29:11 - INFO - (010) StartListaSCCD / 270
+2021-01-29T11:29:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:29:41 - INFO - (010) StartListaSCCD / 271
+2021-01-29T11:30:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:30:11 - INFO - (010) StartListaSCCD / 272
+2021-01-29T11:30:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:30:41 - INFO - (010) StartListaSCCD / 273
+2021-01-29T11:31:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:31:11 - INFO - (010) StartListaSCCD / 274
+2021-01-29T11:31:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:31:41 - INFO - (010) StartListaSCCD / 275
+2021-01-29T11:32:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:32:11 - INFO - (010) StartListaSCCD / 276
+2021-01-29T11:32:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:32:41 - INFO - (010) StartListaSCCD / 277
+2021-01-29T11:33:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:33:11 - INFO - (010) StartListaSCCD / 278
+2021-01-29T11:33:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:33:41 - INFO - (010) StartListaSCCD / 279
+2021-01-29T11:34:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:34:11 - INFO - (010) StartListaSCCD / 280
+2021-01-29T11:34:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:34:41 - INFO - (010) StartListaSCCD / 281
+2021-01-29T11:35:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:35:11 - INFO - (010) StartListaSCCD / 282
+2021-01-29T11:35:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:35:41 - INFO - (010) StartListaSCCD / 283
+2021-01-29T11:36:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:36:11 - INFO - (010) StartListaSCCD / 284
+2021-01-29T11:36:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:36:41 - INFO - (010) StartListaSCCD / 285
+2021-01-29T11:37:11 - INFO - (010) StartListaSCCD / 286
+2021-01-29T11:37:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:37:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:37:41 - INFO - (010) StartListaSCCD / 287
+2021-01-29T11:38:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:38:11 - INFO - (010) StartListaSCCD / 288
+2021-01-29T11:38:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:38:41 - INFO - (010) StartListaSCCD / 289
+2021-01-29T11:39:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:39:11 - INFO - (010) StartListaSCCD / 290
+2021-01-29T11:39:41 - INFO - (010) StartListaSCCD / 291
+2021-01-29T11:39:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:40:11 - INFO - (010) StartListaSCCD / 292
+2021-01-29T11:40:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:40:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:40:41 - INFO - (010) StartListaSCCD / 293
+2021-01-29T11:41:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:41:11 - INFO - (010) StartListaSCCD / 294
+2021-01-29T11:41:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:41:41 - INFO - (010) StartListaSCCD / 295
+2021-01-29T11:42:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:42:11 - INFO - (010) StartListaSCCD / 296
+2021-01-29T11:42:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:42:41 - INFO - (010) StartListaSCCD / 297
+2021-01-29T11:43:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:43:11 - INFO - (010) StartListaSCCD / 298
+2021-01-29T11:43:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:43:41 - INFO - (010) StartListaSCCD / 299
+2021-01-29T11:44:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:44:11 - INFO - (010) StartListaSCCD / 300
+2021-01-29T11:44:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:44:41 - INFO - (010) StartListaSCCD / 301
+2021-01-29T11:45:11 - INFO - (010) StartListaSCCD / 302
+2021-01-29T11:45:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:45:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:45:41 - INFO - (010) StartListaSCCD / 303
+2021-01-29T11:46:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:46:11 - INFO - (010) StartListaSCCD / 304
+2021-01-29T11:46:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:46:41 - INFO - (010) StartListaSCCD / 305
+2021-01-29T11:47:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:47:11 - INFO - (010) StartListaSCCD / 306
+2021-01-29T11:47:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:47:41 - INFO - (010) StartListaSCCD / 307
+2021-01-29T11:48:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:48:11 - INFO - (010) StartListaSCCD / 308
+2021-01-29T11:48:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:48:41 - INFO - (010) StartListaSCCD / 309
+2021-01-29T11:49:11 - INFO - (010) StartListaSCCD / 310
+2021-01-29T11:49:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:49:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:49:41 - INFO - (010) StartListaSCCD / 311
+2021-01-29T11:50:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:50:11 - INFO - (010) StartListaSCCD / 312
+2021-01-29T11:50:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:50:41 - INFO - (010) StartListaSCCD / 313
+2021-01-29T11:51:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:51:11 - INFO - (010) StartListaSCCD / 314
+2021-01-29T11:51:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:51:41 - INFO - (010) StartListaSCCD / 315
+2021-01-29T11:52:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:52:11 - INFO - (010) StartListaSCCD / 316
+2021-01-29T11:52:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:52:41 - INFO - (010) StartListaSCCD / 317
+2021-01-29T11:53:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:53:11 - INFO - (010) StartListaSCCD / 318
+2021-01-29T11:53:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:53:41 - INFO - (010) StartListaSCCD / 319
+2021-01-29T11:54:11 - INFO - (010) StartListaSCCD / 320
+2021-01-29T11:54:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:54:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:54:41 - INFO - (010) StartListaSCCD / 321
+2021-01-29T11:55:11 - INFO - (010) StartListaSCCD / 322
+2021-01-29T11:55:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:55:41 - INFO - (010) StartListaSCCD / 323
+2021-01-29T11:55:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:56:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:56:11 - INFO - (010) StartListaSCCD / 324
+2021-01-29T11:56:41 - INFO - (010) StartListaSCCD / 325
+2021-01-29T11:56:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:57:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:57:11 - INFO - (010) StartListaSCCD / 326
+2021-01-29T11:57:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:57:41 - INFO - (010) StartListaSCCD / 327
+2021-01-29T11:58:11 - INFO - (010) StartListaSCCD / 328
+2021-01-29T11:58:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:58:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:58:41 - INFO - (010) StartListaSCCD / 329
+2021-01-29T11:59:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T11:59:11 - INFO - (010) StartListaSCCD / 330
+2021-01-29T11:59:41 - INFO - (010) StartListaSCCD / 331
+2021-01-29T11:59:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:00:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:00:11 - INFO - (010) StartListaSCCD / 332
+2021-01-29T12:00:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:00:41 - INFO - (010) StartListaSCCD / 333
+2021-01-29T12:01:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:01:11 - INFO - (010) StartListaSCCD / 334
+2021-01-29T12:01:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:01:41 - INFO - (010) StartListaSCCD / 335
+2021-01-29T12:02:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:02:11 - INFO - (010) StartListaSCCD / 336
+2021-01-29T12:02:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:02:41 - INFO - (010) StartListaSCCD / 337
+2021-01-29T12:03:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:03:11 - INFO - (010) StartListaSCCD / 338
+2021-01-29T12:03:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:03:41 - INFO - (010) StartListaSCCD / 339
+2021-01-29T12:04:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:04:11 - INFO - (010) StartListaSCCD / 340
+2021-01-29T12:04:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:04:41 - INFO - (010) StartListaSCCD / 341
+2021-01-29T12:05:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:05:11 - INFO - (010) StartListaSCCD / 342
+2021-01-29T12:05:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:05:41 - INFO - (010) StartListaSCCD / 343
+2021-01-29T12:06:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:06:11 - INFO - (010) StartListaSCCD / 344
+2021-01-29T12:06:41 - INFO - (010) StartListaSCCD / 345
+2021-01-29T12:06:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:07:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:07:11 - INFO - (010) StartListaSCCD / 346
+2021-01-29T12:07:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:07:41 - INFO - (010) StartListaSCCD / 347
+2021-01-29T12:08:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:08:11 - INFO - (010) StartListaSCCD / 348
+2021-01-29T12:08:41 - INFO - (010) StartListaSCCD / 349
+2021-01-29T12:08:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:09:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:09:11 - INFO - (010) StartListaSCCD / 350
+2021-01-29T12:09:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:09:41 - INFO - (010) StartListaSCCD / 351
+2021-01-29T12:10:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:10:11 - INFO - (010) StartListaSCCD / 352
+2021-01-29T12:10:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:10:41 - INFO - (010) StartListaSCCD / 353
+2021-01-29T12:11:11 - INFO - (010) StartListaSCCD / 354
+2021-01-29T12:11:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:11:41 - INFO - (010) StartListaSCCD / 355
+2021-01-29T12:11:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:12:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:12:11 - INFO - (010) StartListaSCCD / 356
+2021-01-29T12:12:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:12:41 - INFO - (010) StartListaSCCD / 357
+2021-01-29T12:13:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:13:11 - INFO - (010) StartListaSCCD / 358
+2021-01-29T12:13:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:13:41 - INFO - (010) StartListaSCCD / 359
+2021-01-29T12:14:11 - INFO - (010) StartListaSCCD / 360
+2021-01-29T12:14:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:14:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:14:41 - INFO - (010) StartListaSCCD / 361
+2021-01-29T12:15:11 - INFO - (010) StartListaSCCD / 362
+2021-01-29T12:15:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:15:41 - INFO - (010) StartListaSCCD / 363
+2021-01-29T12:15:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:16:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:16:11 - INFO - (010) StartListaSCCD / 364
+2021-01-29T12:16:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:16:41 - INFO - (010) StartListaSCCD / 365
+2021-01-29T12:17:11 - INFO - (010) StartListaSCCD / 366
+2021-01-29T12:17:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:17:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:17:41 - INFO - (010) StartListaSCCD / 367
+2021-01-29T12:18:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:18:11 - INFO - (010) StartListaSCCD / 368
+2021-01-29T12:18:41 - INFO - (010) StartListaSCCD / 369
+2021-01-29T12:18:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:19:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:19:11 - INFO - (010) StartListaSCCD / 370
+2021-01-29T12:19:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:19:41 - INFO - (010) StartListaSCCD / 371
+2021-01-29T12:20:11 - INFO - (010) StartListaSCCD / 372
+2021-01-29T12:20:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:20:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:20:41 - INFO - (010) StartListaSCCD / 373
+2021-01-29T12:21:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:21:11 - INFO - (010) StartListaSCCD / 374
+2021-01-29T12:21:41 - INFO - (010) StartListaSCCD / 375
+2021-01-29T12:21:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:22:11 - INFO - (010) StartListaSCCD / 376
+2021-01-29T12:22:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:22:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:22:41 - INFO - (010) StartListaSCCD / 377
+2021-01-29T12:23:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:23:11 - INFO - (010) StartListaSCCD / 378
+2021-01-29T12:23:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:23:41 - INFO - (010) StartListaSCCD / 379
+2021-01-29T12:24:11 - INFO - (010) StartListaSCCD / 380
+2021-01-29T12:24:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:24:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:24:41 - INFO - (010) StartListaSCCD / 381
+2021-01-29T12:25:11 - INFO - (010) StartListaSCCD / 382
+2021-01-29T12:25:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:25:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:25:41 - INFO - (010) StartListaSCCD / 383
+2021-01-29T12:26:11 - INFO - (010) StartListaSCCD / 384
+2021-01-29T12:26:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:26:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:26:41 - INFO - (010) StartListaSCCD / 385
+2021-01-29T12:27:11 - INFO - (010) StartListaSCCD / 386
+2021-01-29T12:27:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:27:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:27:41 - INFO - (010) StartListaSCCD / 387
+2021-01-29T12:28:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:28:11 - INFO - (010) StartListaSCCD / 388
+2021-01-29T12:28:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:28:41 - INFO - (010) StartListaSCCD / 389
+2021-01-29T12:29:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:29:11 - INFO - (010) StartListaSCCD / 390
+2021-01-29T12:29:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:29:41 - INFO - (010) StartListaSCCD / 391
+2021-01-29T12:30:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:30:11 - INFO - (010) StartListaSCCD / 392
+2021-01-29T12:30:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:30:41 - INFO - (010) StartListaSCCD / 393
+2021-01-29T12:31:11 - INFO - (010) StartListaSCCD / 394
+2021-01-29T12:31:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:31:41 - INFO - (010) StartListaSCCD / 395
+2021-01-29T12:31:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:32:11 - INFO - (010) StartListaSCCD / 396
+2021-01-29T12:32:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:32:41 - INFO - (010) StartListaSCCD / 397
+2021-01-29T12:32:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:33:11 - INFO - (010) StartListaSCCD / 398
+2021-01-29T12:33:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:33:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:33:41 - INFO - (010) StartListaSCCD / 399
+2021-01-29T12:34:11 - INFO - (010) StartListaSCCD / 400
+2021-01-29T12:34:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:34:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:34:41 - INFO - (010) StartListaSCCD / 401
+2021-01-29T12:35:11 - INFO - (010) StartListaSCCD / 402
+2021-01-29T12:35:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:35:41 - INFO - (010) StartListaSCCD / 403
+2021-01-29T12:35:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:36:11 - INFO - (010) StartListaSCCD / 404
+2021-01-29T12:36:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:36:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:36:41 - INFO - (010) StartListaSCCD / 405
+2021-01-29T12:37:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:37:11 - INFO - (010) StartListaSCCD / 406
+2021-01-29T12:37:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:37:41 - INFO - (010) StartListaSCCD / 407
+2021-01-29T12:38:11 - INFO - (010) StartListaSCCD / 408
+2021-01-29T12:38:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:38:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:38:41 - INFO - (010) StartListaSCCD / 409
+2021-01-29T12:39:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:39:11 - INFO - (010) StartListaSCCD / 410
+2021-01-29T12:39:41 - INFO - (010) StartListaSCCD / 411
+2021-01-29T12:39:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:40:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:40:11 - INFO - (010) StartListaSCCD / 412
+2021-01-29T12:40:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:40:41 - INFO - (010) StartListaSCCD / 413
+2021-01-29T12:41:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:41:11 - INFO - (010) StartListaSCCD / 414
+2021-01-29T12:41:41 - INFO - (010) StartListaSCCD / 415
+2021-01-29T12:41:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:42:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:42:11 - INFO - (010) StartListaSCCD / 416
+2021-01-29T12:42:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:42:41 - INFO - (010) StartListaSCCD / 417
+2021-01-29T12:43:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:43:11 - INFO - (010) StartListaSCCD / 418
+2021-01-29T12:43:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:43:41 - INFO - (010) StartListaSCCD / 419
+2021-01-29T12:44:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:44:11 - INFO - (010) StartListaSCCD / 420
+2021-01-29T12:44:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:44:41 - INFO - (010) StartListaSCCD / 421
+2021-01-29T12:45:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:45:11 - INFO - (010) StartListaSCCD / 422
+2021-01-29T12:45:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:45:41 - INFO - (010) StartListaSCCD / 423
+2021-01-29T12:46:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:46:11 - INFO - (010) StartListaSCCD / 424
+2021-01-29T12:46:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:46:41 - INFO - (010) StartListaSCCD / 425
+2021-01-29T12:47:11 - INFO - (010) StartListaSCCD / 426
+2021-01-29T12:47:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:47:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:47:41 - INFO - (010) StartListaSCCD / 427
+2021-01-29T12:48:11 - INFO - (010) StartListaSCCD / 428
+2021-01-29T12:48:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:48:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:48:41 - INFO - (010) StartListaSCCD / 429
+2021-01-29T12:49:11 - INFO - (010) StartListaSCCD / 430
+2021-01-29T12:49:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:49:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:49:41 - INFO - (010) StartListaSCCD / 431
+2021-01-29T12:50:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:50:11 - INFO - (010) StartListaSCCD / 432
+2021-01-29T12:50:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:50:41 - INFO - (010) StartListaSCCD / 433
+2021-01-29T12:51:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:51:11 - INFO - (010) StartListaSCCD / 434
+2021-01-29T12:51:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:51:41 - INFO - (010) StartListaSCCD / 435
+2021-01-29T12:52:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:52:11 - INFO - (010) StartListaSCCD / 436
+2021-01-29T12:52:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:52:41 - INFO - (010) StartListaSCCD / 437
+2021-01-29T12:53:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:53:11 - INFO - (010) StartListaSCCD / 438
+2021-01-29T12:53:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:53:41 - INFO - (010) StartListaSCCD / 439
+2021-01-29T12:54:11 - INFO - (010) StartListaSCCD / 440
+2021-01-29T12:54:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:54:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:54:41 - INFO - (010) StartListaSCCD / 441
+2021-01-29T12:55:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:55:11 - INFO - (010) StartListaSCCD / 442
+2021-01-29T12:55:41 - INFO - (010) StartListaSCCD / 443
+2021-01-29T12:55:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:56:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:56:11 - INFO - (010) StartListaSCCD / 444
+2021-01-29T12:56:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:56:41 - INFO - (010) StartListaSCCD / 445
+2021-01-29T12:57:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:57:11 - INFO - (010) StartListaSCCD / 446
+2021-01-29T12:57:41 - INFO - (010) StartListaSCCD / 447
+2021-01-29T12:57:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:58:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:58:11 - INFO - (010) StartListaSCCD / 448
+2021-01-29T12:58:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:58:41 - INFO - (010) StartListaSCCD / 449
+2021-01-29T12:59:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T12:59:11 - INFO - (010) StartListaSCCD / 450
+2021-01-29T12:59:41 - INFO - (010) StartListaSCCD / 451
+2021-01-29T12:59:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:00:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:00:11 - INFO - (010) StartListaSCCD / 452
+2021-01-29T13:00:41 - INFO - (010) StartListaSCCD / 453
+2021-01-29T13:00:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:01:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:01:11 - INFO - (010) StartListaSCCD / 454
+2021-01-29T13:01:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:01:41 - INFO - (010) StartListaSCCD / 455
+2021-01-29T13:02:11 - INFO - (010) StartListaSCCD / 456
+2021-01-29T13:02:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:02:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:02:41 - INFO - (010) StartListaSCCD / 457
+2021-01-29T13:03:11 - INFO - (010) StartListaSCCD / 458
+2021-01-29T13:03:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:03:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:03:41 - INFO - (010) StartListaSCCD / 459
+2021-01-29T13:04:11 - INFO - (010) StartListaSCCD / 460
+2021-01-29T13:04:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:04:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:04:41 - INFO - (010) StartListaSCCD / 461
+2021-01-29T13:05:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:05:11 - INFO - (010) StartListaSCCD / 462
+2021-01-29T13:05:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:05:41 - INFO - (010) StartListaSCCD / 463
+2021-01-29T13:06:11 - INFO - (010) StartListaSCCD / 464
+2021-01-29T13:06:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:06:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:06:41 - INFO - (010) StartListaSCCD / 465
+2021-01-29T13:07:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:07:11 - INFO - (010) StartListaSCCD / 466
+2021-01-29T13:07:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:07:41 - INFO - (010) StartListaSCCD / 467
+2021-01-29T13:08:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:08:11 - INFO - (010) StartListaSCCD / 468
+2021-01-29T13:08:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:08:41 - INFO - (010) StartListaSCCD / 469
+2021-01-29T13:09:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:09:11 - INFO - (010) StartListaSCCD / 470
+2021-01-29T13:09:41 - INFO - (010) StartListaSCCD / 471
+2021-01-29T13:09:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:10:11 - INFO - (010) StartListaSCCD / 472
+2021-01-29T13:10:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:10:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:10:41 - INFO - (010) StartListaSCCD / 473
+2021-01-29T13:11:11 - INFO - (010) StartListaSCCD / 474
+2021-01-29T13:11:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:11:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:11:41 - INFO - (010) StartListaSCCD / 475
+2021-01-29T13:12:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:12:11 - INFO - (010) StartListaSCCD / 476
+2021-01-29T13:12:41 - INFO - (010) StartListaSCCD / 477
+2021-01-29T13:12:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:13:11 - INFO - (010) StartListaSCCD / 478
+2021-01-29T13:13:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:13:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:13:41 - INFO - (010) StartListaSCCD / 479
+2021-01-29T13:14:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:14:11 - INFO - (010) StartListaSCCD / 480
+2021-01-29T13:14:41 - INFO - (010) StartListaSCCD / 481
+2021-01-29T13:14:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:15:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:15:11 - INFO - (010) StartListaSCCD / 482
+2021-01-29T13:15:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:15:41 - INFO - (010) StartListaSCCD / 483
+2021-01-29T13:16:11 - INFO - (010) StartListaSCCD / 484
+2021-01-29T13:16:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:16:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:16:41 - INFO - (010) StartListaSCCD / 485
+2021-01-29T13:17:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:17:11 - INFO - (010) StartListaSCCD / 486
+2021-01-29T13:17:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:17:41 - INFO - (010) StartListaSCCD / 487
+2021-01-29T13:18:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:18:11 - INFO - (010) StartListaSCCD / 488
+2021-01-29T13:18:41 - INFO - (010) StartListaSCCD / 489
+2021-01-29T13:18:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:19:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:19:11 - INFO - (010) StartListaSCCD / 490
+2021-01-29T13:19:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:19:41 - INFO - (010) StartListaSCCD / 491
+2021-01-29T13:20:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:20:11 - INFO - (010) StartListaSCCD / 492
+2021-01-29T13:20:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:20:41 - INFO - (010) StartListaSCCD / 493
+2021-01-29T13:21:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:21:11 - INFO - (010) StartListaSCCD / 494
+2021-01-29T13:21:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:21:41 - INFO - (010) StartListaSCCD / 495
+2021-01-29T13:22:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:22:11 - INFO - (010) StartListaSCCD / 496
+2021-01-29T13:22:41 - INFO - (010) StartListaSCCD / 497
+2021-01-29T13:22:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:23:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:23:11 - INFO - (010) StartListaSCCD / 498
+2021-01-29T13:23:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:23:41 - INFO - (010) StartListaSCCD / 499
+2021-01-29T13:24:11 - INFO - (010) StartListaSCCD / 500
+2021-01-29T13:24:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:24:41 - INFO - (010) StartListaSCCD / 501
+2021-01-29T13:24:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:25:11 - INFO - (010) StartListaSCCD / 502
+2021-01-29T13:25:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:25:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:25:41 - INFO - (010) StartListaSCCD / 503
+2021-01-29T13:26:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:26:11 - INFO - (010) StartListaSCCD / 504
+2021-01-29T13:26:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:26:41 - INFO - (010) StartListaSCCD / 505
+2021-01-29T13:27:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:27:11 - INFO - (010) StartListaSCCD / 506
+2021-01-29T13:27:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:27:41 - INFO - (010) StartListaSCCD / 507
+2021-01-29T13:28:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:28:11 - INFO - (010) StartListaSCCD / 508
+2021-01-29T13:28:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:28:41 - INFO - (010) StartListaSCCD / 509
+2021-01-29T13:29:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:29:11 - INFO - (010) StartListaSCCD / 510
+2021-01-29T13:29:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:29:41 - INFO - (010) StartListaSCCD / 511
+2021-01-29T13:30:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:30:11 - INFO - (010) StartListaSCCD / 512
+2021-01-29T13:30:41 - INFO - (010) StartListaSCCD / 513
+2021-01-29T13:30:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:31:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:31:11 - INFO - (010) StartListaSCCD / 514
+2021-01-29T13:31:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:31:41 - INFO - (010) StartListaSCCD / 515
+2021-01-29T13:32:11 - INFO - (010) StartListaSCCD / 516
+2021-01-29T13:32:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:32:41 - INFO - (010) StartListaSCCD / 517
+2021-01-29T13:32:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:33:11 - INFO - (010) StartListaSCCD / 518
+2021-01-29T13:33:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:33:41 - INFO - (010) StartListaSCCD / 519
+2021-01-29T13:33:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:34:11 - INFO - (010) StartListaSCCD / 520
+2021-01-29T13:34:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:34:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:34:41 - INFO - (010) StartListaSCCD / 521
+2021-01-29T13:35:11 - INFO - (010) StartListaSCCD / 522
+2021-01-29T13:35:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:35:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:35:41 - INFO - (010) StartListaSCCD / 523
+2021-01-29T13:36:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:36:11 - INFO - (010) StartListaSCCD / 524
+2021-01-29T13:36:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:36:41 - INFO - (010) StartListaSCCD / 525
+2021-01-29T13:37:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:37:11 - INFO - (010) StartListaSCCD / 526
+2021-01-29T13:37:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:37:41 - INFO - (010) StartListaSCCD / 527
+2021-01-29T13:38:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:38:11 - INFO - (010) StartListaSCCD / 528
+2021-01-29T13:38:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:38:41 - INFO - (010) StartListaSCCD / 529
+2021-01-29T13:39:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:39:11 - INFO - (010) StartListaSCCD / 530
+2021-01-29T13:39:41 - INFO - (010) StartListaSCCD / 531
+2021-01-29T13:39:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:40:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:40:11 - INFO - (010) StartListaSCCD / 532
+2021-01-29T13:40:41 - INFO - (010) StartListaSCCD / 533
+2021-01-29T13:40:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:41:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:41:11 - INFO - (010) StartListaSCCD / 534
+2021-01-29T13:41:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:41:41 - INFO - (010) StartListaSCCD / 535
+2021-01-29T13:42:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:42:11 - INFO - (010) StartListaSCCD / 536
+2021-01-29T13:42:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:42:41 - INFO - (010) StartListaSCCD / 537
+2021-01-29T13:43:11 - INFO - (010) StartListaSCCD / 538
+2021-01-29T13:43:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:43:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:43:41 - INFO - (010) StartListaSCCD / 539
+2021-01-29T13:44:11 - INFO - (010) StartListaSCCD / 540
+2021-01-29T13:44:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:44:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:44:41 - INFO - (010) StartListaSCCD / 541
+2021-01-29T13:45:11 - INFO - (010) StartListaSCCD / 542
+2021-01-29T13:45:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:45:41 - INFO - (010) StartListaSCCD / 543
+2021-01-29T13:45:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:46:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:46:11 - INFO - (010) StartListaSCCD / 544
+2021-01-29T13:46:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:46:41 - INFO - (010) StartListaSCCD / 545
+2021-01-29T13:47:11 - INFO - (010) StartListaSCCD / 546
+2021-01-29T13:47:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:47:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:47:41 - INFO - (010) StartListaSCCD / 547
+2021-01-29T13:48:11 - INFO - (010) StartListaSCCD / 548
+2021-01-29T13:48:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:48:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:48:41 - INFO - (010) StartListaSCCD / 549
+2021-01-29T13:49:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:49:11 - INFO - (010) StartListaSCCD / 550
+2021-01-29T13:49:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:49:41 - INFO - (010) StartListaSCCD / 551
+2021-01-29T13:50:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:50:11 - INFO - (010) StartListaSCCD / 552
+2021-01-29T13:50:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:50:41 - INFO - (010) StartListaSCCD / 553
+2021-01-29T13:51:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:51:11 - INFO - (010) StartListaSCCD / 554
+2021-01-29T13:51:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:51:41 - INFO - (010) StartListaSCCD / 555
+2021-01-29T13:52:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:52:11 - INFO - (010) StartListaSCCD / 556
+2021-01-29T13:52:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:52:41 - INFO - (010) StartListaSCCD / 557
+2021-01-29T13:53:11 - INFO - (010) StartListaSCCD / 558
+2021-01-29T13:53:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:53:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:53:41 - INFO - (010) StartListaSCCD / 559
+2021-01-29T13:54:11 - INFO - (010) StartListaSCCD / 560
+2021-01-29T13:54:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:54:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:54:41 - INFO - (010) StartListaSCCD / 561
+2021-01-29T13:55:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:55:11 - INFO - (010) StartListaSCCD / 562
+2021-01-29T13:55:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:55:41 - INFO - (010) StartListaSCCD / 563
+2021-01-29T13:56:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:56:11 - INFO - (010) StartListaSCCD / 564
+2021-01-29T13:56:41 - INFO - (010) StartListaSCCD / 565
+2021-01-29T13:56:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:57:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:57:11 - INFO - (010) StartListaSCCD / 566
+2021-01-29T13:57:41 - INFO - (010) StartListaSCCD / 567
+2021-01-29T13:57:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:58:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:58:11 - INFO - (010) StartListaSCCD / 568
+2021-01-29T13:58:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:58:41 - INFO - (010) StartListaSCCD / 569
+2021-01-29T13:59:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:59:11 - INFO - (010) StartListaSCCD / 570
+2021-01-29T13:59:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T13:59:41 - INFO - (010) StartListaSCCD / 571
+2021-01-29T14:00:11 - INFO - (010) StartListaSCCD / 572
+2021-01-29T14:00:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:00:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:00:41 - INFO - (010) StartListaSCCD / 573
+2021-01-29T14:01:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:01:11 - INFO - (010) StartListaSCCD / 574
+2021-01-29T14:01:41 - INFO - (010) StartListaSCCD / 575
+2021-01-29T14:01:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:02:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:02:11 - INFO - (010) StartListaSCCD / 576
+2021-01-29T14:02:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:02:41 - INFO - (010) StartListaSCCD / 577
+2021-01-29T14:03:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:03:11 - INFO - (010) StartListaSCCD / 578
+2021-01-29T14:03:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:03:41 - INFO - (010) StartListaSCCD / 579
+2021-01-29T14:04:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:04:11 - INFO - (010) StartListaSCCD / 580
+2021-01-29T14:04:41 - INFO - (010) StartListaSCCD / 581
+2021-01-29T14:04:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:05:11 - INFO - (010) StartListaSCCD / 582
+2021-01-29T14:05:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:05:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:05:41 - INFO - (010) StartListaSCCD / 583
+2021-01-29T14:06:11 - INFO - (010) StartListaSCCD / 584
+2021-01-29T14:06:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:06:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:06:41 - INFO - (010) StartListaSCCD / 585
+2021-01-29T14:07:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:07:11 - INFO - (010) StartListaSCCD / 586
+2021-01-29T14:07:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:07:41 - INFO - (010) StartListaSCCD / 587
+2021-01-29T14:08:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:08:11 - INFO - (010) StartListaSCCD / 588
+2021-01-29T14:08:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:08:41 - INFO - (010) StartListaSCCD / 589
+2021-01-29T14:09:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:09:11 - INFO - (010) StartListaSCCD / 590
+2021-01-29T14:09:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:09:41 - INFO - (010) StartListaSCCD / 591
+2021-01-29T14:10:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:10:11 - INFO - (010) StartListaSCCD / 592
+2021-01-29T14:10:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:10:41 - INFO - (010) StartListaSCCD / 593
+2021-01-29T14:11:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:11:11 - INFO - (010) StartListaSCCD / 594
+2021-01-29T14:11:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:11:41 - INFO - (010) StartListaSCCD / 595
+2021-01-29T14:12:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:12:11 - INFO - (010) StartListaSCCD / 596
+2021-01-29T14:12:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:12:41 - INFO - (010) StartListaSCCD / 597
+2021-01-29T14:13:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:13:11 - INFO - (010) StartListaSCCD / 598
+2021-01-29T14:13:41 - INFO - (010) StartListaSCCD / 599
+2021-01-29T14:13:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:14:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:14:11 - INFO - (010) StartListaSCCD / 600
+2021-01-29T14:14:41 - INFO - (010) StartListaSCCD / 601
+2021-01-29T14:14:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:15:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:15:11 - INFO - (010) StartListaSCCD / 602
+2021-01-29T14:15:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:15:41 - INFO - (010) StartListaSCCD / 603
+2021-01-29T14:16:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:16:11 - INFO - (010) StartListaSCCD / 604
+2021-01-29T14:16:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:16:41 - INFO - (010) StartListaSCCD / 605
+2021-01-29T14:17:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:17:11 - INFO - (010) StartListaSCCD / 606
+2021-01-29T14:17:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:17:41 - INFO - (010) StartListaSCCD / 607
+2021-01-29T14:18:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:18:11 - INFO - (010) StartListaSCCD / 608
+2021-01-29T14:18:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:18:41 - INFO - (010) StartListaSCCD / 609
+2021-01-29T14:19:11 - INFO - (010) StartListaSCCD / 610
+2021-01-29T14:19:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:19:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:19:41 - INFO - (010) StartListaSCCD / 611
+2021-01-29T14:20:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:20:11 - INFO - (010) StartListaSCCD / 612
+2021-01-29T14:20:41 - INFO - (010) StartListaSCCD / 613
+2021-01-29T14:20:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:21:11 - INFO - (010) StartListaSCCD / 614
+2021-01-29T14:21:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:21:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:21:41 - INFO - (010) StartListaSCCD / 615
+2021-01-29T14:22:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:22:11 - INFO - (010) StartListaSCCD / 616
+2021-01-29T14:22:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:22:41 - INFO - (010) StartListaSCCD / 617
+2021-01-29T14:23:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:23:11 - INFO - (010) StartListaSCCD / 618
+2021-01-29T14:23:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:23:41 - INFO - (010) StartListaSCCD / 619
+2021-01-29T14:24:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:24:11 - INFO - (010) StartListaSCCD / 620
+2021-01-29T14:24:41 - INFO - (010) StartListaSCCD / 621
+2021-01-29T14:24:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:25:11 - INFO - (010) StartListaSCCD / 622
+2021-01-29T14:25:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:25:41 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:25:41 - INFO - (010) StartListaSCCD / 623
+2021-01-29T14:26:11 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T14:26:11 - INFO - (010) StartListaSCCD / 624
+2021-01-29T16:49:45 - INFO - (011) Retorno da API. ( 3 itens )
+2021-01-29T16:49:45 - INFO - (010) StartListaSCCD / 1
+2021-01-29T16:49:46 - INFO - (004) Obtendo imagem. (c8ce6c70-2fe5-4091-98e8-9834af7b1b69.jpg)
+2021-01-29T16:49:46 - INFO - (004) Obtendo imagem. (d6fde0eb-4c3f-40ed-86e2-210ca23a637d.jpg)
+2021-01-29T16:49:46 - AVISO - (007) Copia de arquivo: (./downloads/d6fde0eb-4c3f-40ed-86e2-210ca23a637d.jpg) => (D:/New/temp/REC/REC17430/DESCARGA/FOR/REC17430_FOR_img_1.jpg) >> ({"success":true,"message":"Copia. OK.","origem":"./downloads/d6fde0eb-4c3f-40ed-86e2-210ca23a637d.jpg","destino":"D:/New/temp/REC/REC17430/DESCARGA/FOR/REC17430_FOR_img_1.jpg"})
+2021-01-29T16:49:46 - AVISO - (008) Exclusão de arquivo: (./downloads/d6fde0eb-4c3f-40ed-86e2-210ca23a637d.jpg) >> ({"success":true,"message":"Exclusão. OK.","file":"./downloads/d6fde0eb-4c3f-40ed-86e2-210ca23a637d.jpg"})
+2021-01-29T16:49:46 - AVISO - (007) Copia de arquivo: (./downloads/c8ce6c70-2fe5-4091-98e8-9834af7b1b69.jpg) => (D:/New/temp/MEO/MEO6411/CARGA/FOR/MEO6411_FOR_img_2.jpg) >> ({"success":true,"message":"Copia. OK.","origem":"./downloads/c8ce6c70-2fe5-4091-98e8-9834af7b1b69.jpg","destino":"D:/New/temp/MEO/MEO6411/CARGA/FOR/MEO6411_FOR_img_2.jpg"})
+2021-01-29T16:49:46 - AVISO - (008) Exclusão de arquivo: (./downloads/c8ce6c70-2fe5-4091-98e8-9834af7b1b69.jpg) >> ({"success":true,"message":"Exclusão. OK.","file":"./downloads/c8ce6c70-2fe5-4091-98e8-9834af7b1b69.jpg"})
+2021-01-29T16:49:46 - INFO - (004) Obtendo imagem. (c9f6a34e-b94b-422a-b368-b5d1b4338167.jpg)
+2021-01-29T16:49:46 - AVISO - (007) Copia de arquivo: (./downloads/c9f6a34e-b94b-422a-b368-b5d1b4338167.jpg) => (D:/New/temp/REC/REC17430/CARGA/FOR/REC17430_FOR_img_1.jpg) >> ({"success":true,"message":"Copia. OK.","origem":"./downloads/c9f6a34e-b94b-422a-b368-b5d1b4338167.jpg","destino":"D:/New/temp/REC/REC17430/CARGA/FOR/REC17430_FOR_img_1.jpg"})
+2021-01-29T16:49:46 - AVISO - (008) Exclusão de arquivo: (./downloads/c9f6a34e-b94b-422a-b368-b5d1b4338167.jpg) >> ({"success":true,"message":"Exclusão. OK.","file":"./downloads/c9f6a34e-b94b-422a-b368-b5d1b4338167.jpg"})
+2021-01-29T16:49:46 - AVISO - (009) Registro de Baixa SCCD na API: ID:(42) >> ({"rowsAffected":1,"msg":"OK","Erro":"","success":true,"message":"Baixado com sucesso !!!","id":42})
+2021-01-29T16:49:46 - AVISO - (009) Registro de Baixa SCCD na API: ID:(40) >> ({"rowsAffected":1,"msg":"OK","Erro":"","success":true,"message":"Baixado com sucesso !!!","id":40})
+2021-01-29T16:49:46 - AVISO - (009) Registro de Baixa SCCD na API: ID:(41) >> ({"rowsAffected":1,"msg":"OK","Erro":"","success":true,"message":"Baixado com sucesso !!!","id":41})
+2021-01-29T16:49:49 - AVISO - (020) Registro incluido com sucesso ALB : ID:(816353) >> ({"fieldCount":0,"affectedRows":1,"insertId":816353,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T16:49:49 - AVISO - (020) Registro incluido com sucesso ALB : ID:(816354) >> ({"fieldCount":0,"affectedRows":1,"insertId":816354,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T16:49:49 - AVISO - (020) Registro incluido com sucesso ALB : ID:(816355) >> ({"fieldCount":0,"affectedRows":1,"insertId":816355,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T16:49:49 - SUCESSO - (049) Processo concluido na API: ID:(40)
+2021-01-29T16:49:49 - AVISO - (030) Registro incluido com sucesso ANX : ID:(102736) >> ({"fieldCount":0,"affectedRows":1,"insertId":102736,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T16:49:49 - AVISO - (030) Registro incluido com sucesso ANX : ID:(102737) >> ({"fieldCount":0,"affectedRows":1,"insertId":102737,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T16:49:49 - SUCESSO - (049) Processo concluido na API: ID:(42)
+2021-01-29T16:49:49 - SUCESSO - (049) Processo concluido na API: ID:(41)
+2021-01-29T16:50:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:50:15 - INFO - (010) StartListaSCCD / 2
+2021-01-29T16:50:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:50:45 - INFO - (010) StartListaSCCD / 3
+2021-01-29T16:51:15 - INFO - (010) StartListaSCCD / 4
+2021-01-29T16:51:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:51:45 - INFO - (011) Retorno da API. ( 1 itens )
+2021-01-29T16:51:45 - INFO - (010) StartListaSCCD / 5
+2021-01-29T16:51:45 - INFO - (004) Obtendo imagem. (dcc5acb1-7374-42a6-a599-3618a0dfc006.jpg)
+2021-01-29T16:51:45 - AVISO - (007) Copia de arquivo: (./downloads/dcc5acb1-7374-42a6-a599-3618a0dfc006.jpg) => (D:/New/temp/REC/REC17430/VAZIO/FOR/REC17430_FOR_img_1.jpg) >> ({"success":true,"message":"Copia. OK.","origem":"./downloads/dcc5acb1-7374-42a6-a599-3618a0dfc006.jpg","destino":"D:/New/temp/REC/REC17430/VAZIO/FOR/REC17430_FOR_img_1.jpg"})
+2021-01-29T16:51:45 - AVISO - (008) Exclusão de arquivo: (./downloads/dcc5acb1-7374-42a6-a599-3618a0dfc006.jpg) >> ({"success":true,"message":"Exclusão. OK.","file":"./downloads/dcc5acb1-7374-42a6-a599-3618a0dfc006.jpg"})
+2021-01-29T16:51:45 - AVISO - (009) Registro de Baixa SCCD na API: ID:(43) >> ({"rowsAffected":1,"msg":"OK","Erro":"","success":true,"message":"Baixado com sucesso !!!","id":43})
+2021-01-29T16:51:46 - AVISO - (020) Registro incluido com sucesso ALB : ID:(816356) >> ({"fieldCount":0,"affectedRows":1,"insertId":816356,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T16:51:46 - AVISO - (030) Registro incluido com sucesso ANX : ID:(102738) >> ({"fieldCount":0,"affectedRows":1,"insertId":102738,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T16:51:46 - SUCESSO - (049) Processo concluido na API: ID:(43)
+2021-01-29T16:52:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:52:15 - INFO - (010) StartListaSCCD / 6
+2021-01-29T16:52:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:52:45 - INFO - (010) StartListaSCCD / 7
+2021-01-29T16:53:15 - INFO - (010) StartListaSCCD / 8
+2021-01-29T16:53:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:53:45 - INFO - (010) StartListaSCCD / 9
+2021-01-29T16:53:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:54:15 - INFO - (010) StartListaSCCD / 10
+2021-01-29T16:54:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:54:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:54:45 - INFO - (010) StartListaSCCD / 11
+2021-01-29T16:55:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:55:15 - INFO - (010) StartListaSCCD / 12
+2021-01-29T16:55:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:55:45 - INFO - (010) StartListaSCCD / 13
+2021-01-29T16:56:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:56:15 - INFO - (010) StartListaSCCD / 14
+2021-01-29T16:56:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:56:45 - INFO - (010) StartListaSCCD / 15
+2021-01-29T16:57:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:57:15 - INFO - (010) StartListaSCCD / 16
+2021-01-29T16:57:45 - INFO - (011) Retorno da API. ( 1 itens )
+2021-01-29T16:57:45 - INFO - (010) StartListaSCCD / 17
+2021-01-29T16:57:45 - INFO - (004) Obtendo imagem. (107f8c4b-b166-4886-849e-735976f43511.jpg)
+2021-01-29T16:57:45 - AVISO - (007) Copia de arquivo: (./downloads/107f8c4b-b166-4886-849e-735976f43511.jpg) => (D:/New/temp/SPO/SPO56099/DESCARGA/FOR/SPO56099_FOR_img_2.jpg) >> ({"success":true,"message":"Copia. OK.","origem":"./downloads/107f8c4b-b166-4886-849e-735976f43511.jpg","destino":"D:/New/temp/SPO/SPO56099/DESCARGA/FOR/SPO56099_FOR_img_2.jpg"})
+2021-01-29T16:57:45 - AVISO - (008) Exclusão de arquivo: (./downloads/107f8c4b-b166-4886-849e-735976f43511.jpg) >> ({"success":true,"message":"Exclusão. OK.","file":"./downloads/107f8c4b-b166-4886-849e-735976f43511.jpg"})
+2021-01-29T16:57:45 - AVISO - (009) Registro de Baixa SCCD na API: ID:(44) >> ({"rowsAffected":1,"msg":"OK","Erro":"","success":true,"message":"Baixado com sucesso !!!","id":44})
+2021-01-29T16:57:46 - AVISO - (020) Registro incluido com sucesso ALB : ID:(816357) >> ({"fieldCount":0,"affectedRows":1,"insertId":816357,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T16:57:46 - SUCESSO - (049) Processo concluido na API: ID:(44)
+2021-01-29T16:58:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:58:15 - INFO - (010) StartListaSCCD / 18
+2021-01-29T16:58:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:58:45 - INFO - (010) StartListaSCCD / 19
+2021-01-29T16:59:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T16:59:15 - INFO - (010) StartListaSCCD / 20
+2021-01-29T16:59:45 - INFO - (010) StartListaSCCD / 21
+2021-01-29T16:59:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:00:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:00:15 - INFO - (010) StartListaSCCD / 22
+2021-01-29T17:00:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:00:45 - INFO - (010) StartListaSCCD / 23
+2021-01-29T17:01:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:01:15 - INFO - (010) StartListaSCCD / 24
+2021-01-29T17:01:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:01:45 - INFO - (010) StartListaSCCD / 25
+2021-01-29T17:02:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:02:15 - INFO - (010) StartListaSCCD / 26
+2021-01-29T17:02:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:02:45 - INFO - (010) StartListaSCCD / 27
+2021-01-29T17:03:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:03:15 - INFO - (010) StartListaSCCD / 28
+2021-01-29T17:03:45 - INFO - (010) StartListaSCCD / 29
+2021-01-29T17:03:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:04:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:04:15 - INFO - (010) StartListaSCCD / 30
+2021-01-29T17:04:45 - INFO - (011) Retorno da API. ( 1 itens )
+2021-01-29T17:04:45 - INFO - (010) StartListaSCCD / 31
+2021-01-29T17:04:45 - INFO - (004) Obtendo imagem. (cfc4e6d1-1110-4dcc-aced-2b11ed591914.jpg)
+2021-01-29T17:04:45 - AVISO - (007) Copia de arquivo: (./downloads/cfc4e6d1-1110-4dcc-aced-2b11ed591914.jpg) => (D:/New/temp/SPO/SPO56098/DESCARGA/FOR/SPO56098_FOR_img_1.jpg) >> ({"success":true,"message":"Copia. OK.","origem":"./downloads/cfc4e6d1-1110-4dcc-aced-2b11ed591914.jpg","destino":"D:/New/temp/SPO/SPO56098/DESCARGA/FOR/SPO56098_FOR_img_1.jpg"})
+2021-01-29T17:04:45 - AVISO - (008) Exclusão de arquivo: (./downloads/cfc4e6d1-1110-4dcc-aced-2b11ed591914.jpg) >> ({"success":true,"message":"Exclusão. OK.","file":"./downloads/cfc4e6d1-1110-4dcc-aced-2b11ed591914.jpg"})
+2021-01-29T17:04:46 - AVISO - (009) Registro de Baixa SCCD na API: ID:(45) >> ({"rowsAffected":1,"msg":"OK","Erro":"","success":true,"message":"Baixado com sucesso !!!","id":45})
+2021-01-29T17:04:46 - AVISO - (020) Registro incluido com sucesso ALB : ID:(816358) >> ({"fieldCount":0,"affectedRows":1,"insertId":816358,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T17:04:46 - AVISO - (030) Registro incluido com sucesso ANX : ID:(102739) >> ({"fieldCount":0,"affectedRows":1,"insertId":102739,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T17:04:46 - SUCESSO - (049) Processo concluido na API: ID:(45)
+2021-01-29T17:05:15 - INFO - (011) Retorno da API. ( 1 itens )
+2021-01-29T17:05:15 - INFO - (010) StartListaSCCD / 32
+2021-01-29T17:05:15 - INFO - (004) Obtendo imagem. (cfc4e6d1-1110-4dcc-aced-2b11ed591914.jpg)
+2021-01-29T17:05:15 - AVISO - (007) Copia de arquivo: (./downloads/cfc4e6d1-1110-4dcc-aced-2b11ed591914.jpg) => (D:/New/temp/SPO/SPO56098/DESCARGA/FOR/SPO56098_FOR_img_2.jpg) >> ({"success":true,"message":"Copia. OK.","origem":"./downloads/cfc4e6d1-1110-4dcc-aced-2b11ed591914.jpg","destino":"D:/New/temp/SPO/SPO56098/DESCARGA/FOR/SPO56098_FOR_img_2.jpg"})
+2021-01-29T17:05:15 - AVISO - (008) Exclusão de arquivo: (./downloads/cfc4e6d1-1110-4dcc-aced-2b11ed591914.jpg) >> ({"success":true,"message":"Exclusão. OK.","file":"./downloads/cfc4e6d1-1110-4dcc-aced-2b11ed591914.jpg"})
+2021-01-29T17:05:15 - AVISO - (009) Registro de Baixa SCCD na API: ID:(46) >> ({"rowsAffected":1,"msg":"OK","Erro":"","success":true,"message":"Baixado com sucesso !!!","id":46})
+2021-01-29T17:05:16 - AVISO - (020) Registro incluido com sucesso ALB : ID:(816359) >> ({"fieldCount":0,"affectedRows":1,"insertId":816359,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T17:05:16 - SUCESSO - (049) Processo concluido na API: ID:(46)
+2021-01-29T17:05:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:05:45 - INFO - (010) StartListaSCCD / 33
+2021-01-29T17:06:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:06:15 - INFO - (010) StartListaSCCD / 34
+2021-01-29T17:06:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:06:45 - INFO - (010) StartListaSCCD / 35
+2021-01-29T17:07:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:07:15 - INFO - (010) StartListaSCCD / 36
+2021-01-29T17:07:45 - INFO - (010) StartListaSCCD / 37
+2021-01-29T17:07:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:08:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:08:15 - INFO - (010) StartListaSCCD / 38
+2021-01-29T17:08:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:08:45 - INFO - (010) StartListaSCCD / 39
+2021-01-29T17:09:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:09:15 - INFO - (010) StartListaSCCD / 40
+2021-01-29T17:09:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:09:45 - INFO - (010) StartListaSCCD / 41
+2021-01-29T17:10:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:10:15 - INFO - (010) StartListaSCCD / 42
+2021-01-29T17:10:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:10:45 - INFO - (010) StartListaSCCD / 43
+2021-01-29T17:11:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:11:15 - INFO - (010) StartListaSCCD / 44
+2021-01-29T17:11:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:11:45 - INFO - (010) StartListaSCCD / 45
+2021-01-29T17:12:15 - INFO - (010) StartListaSCCD / 46
+2021-01-29T17:12:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:12:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:12:45 - INFO - (010) StartListaSCCD / 47
+2021-01-29T17:13:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:13:15 - INFO - (010) StartListaSCCD / 48
+2021-01-29T17:13:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:13:45 - INFO - (010) StartListaSCCD / 49
+2021-01-29T17:14:15 - INFO - (010) StartListaSCCD / 50
+2021-01-29T17:14:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:14:45 - INFO - (010) StartListaSCCD / 51
+2021-01-29T17:14:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:15:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:15:15 - INFO - (010) StartListaSCCD / 52
+2021-01-29T17:15:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:15:45 - INFO - (010) StartListaSCCD / 53
+2021-01-29T17:16:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:16:15 - INFO - (010) StartListaSCCD / 54
+2021-01-29T17:16:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:16:45 - INFO - (010) StartListaSCCD / 55
+2021-01-29T17:17:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:17:15 - INFO - (010) StartListaSCCD / 56
+2021-01-29T17:17:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:17:45 - INFO - (010) StartListaSCCD / 57
+2021-01-29T17:18:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:18:15 - INFO - (010) StartListaSCCD / 58
+2021-01-29T17:18:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:18:45 - INFO - (010) StartListaSCCD / 59
+2021-01-29T17:19:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:19:15 - INFO - (010) StartListaSCCD / 60
+2021-01-29T17:19:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:19:45 - INFO - (010) StartListaSCCD / 61
+2021-01-29T17:20:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:20:15 - INFO - (010) StartListaSCCD / 62
+2021-01-29T17:20:45 - INFO - (010) StartListaSCCD / 63
+2021-01-29T17:20:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:21:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:21:15 - INFO - (010) StartListaSCCD / 64
+2021-01-29T17:21:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:21:45 - INFO - (010) StartListaSCCD / 65
+2021-01-29T17:22:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:22:15 - INFO - (010) StartListaSCCD / 66
+2021-01-29T17:22:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:22:45 - INFO - (010) StartListaSCCD / 67
+2021-01-29T17:23:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:23:15 - INFO - (010) StartListaSCCD / 68
+2021-01-29T17:23:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:23:45 - INFO - (010) StartListaSCCD / 69
+2021-01-29T17:24:15 - INFO - (010) StartListaSCCD / 70
+2021-01-29T17:24:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:24:45 - INFO - (010) StartListaSCCD / 71
+2021-01-29T17:24:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:25:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:25:15 - INFO - (010) StartListaSCCD / 72
+2021-01-29T17:25:45 - INFO - (010) StartListaSCCD / 73
+2021-01-29T17:25:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:26:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:26:15 - INFO - (010) StartListaSCCD / 74
+2021-01-29T17:26:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:26:45 - INFO - (010) StartListaSCCD / 75
+2021-01-29T17:27:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:27:15 - INFO - (010) StartListaSCCD / 76
+2021-01-29T17:27:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:27:45 - INFO - (010) StartListaSCCD / 77
+2021-01-29T17:28:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:28:15 - INFO - (010) StartListaSCCD / 78
+2021-01-29T17:28:45 - INFO - (010) StartListaSCCD / 79
+2021-01-29T17:28:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:29:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:29:15 - INFO - (010) StartListaSCCD / 80
+2021-01-29T17:29:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:29:45 - INFO - (010) StartListaSCCD / 81
+2021-01-29T17:30:15 - INFO - (010) StartListaSCCD / 82
+2021-01-29T17:30:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:30:45 - INFO - (010) StartListaSCCD / 83
+2021-01-29T17:30:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:31:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:31:15 - INFO - (010) StartListaSCCD / 84
+2021-01-29T17:31:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:31:45 - INFO - (010) StartListaSCCD / 85
+2021-01-29T17:32:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:32:15 - INFO - (010) StartListaSCCD / 86
+2021-01-29T17:32:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:32:45 - INFO - (010) StartListaSCCD / 87
+2021-01-29T17:33:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:33:15 - INFO - (010) StartListaSCCD / 88
+2021-01-29T17:33:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:33:45 - INFO - (010) StartListaSCCD / 89
+2021-01-29T17:34:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:34:15 - INFO - (010) StartListaSCCD / 90
+2021-01-29T17:34:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:34:45 - INFO - (010) StartListaSCCD / 91
+2021-01-29T17:35:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:35:15 - INFO - (010) StartListaSCCD / 92
+2021-01-29T17:35:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:35:45 - INFO - (010) StartListaSCCD / 93
+2021-01-29T17:36:15 - INFO - (010) StartListaSCCD / 94
+2021-01-29T17:36:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:36:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:36:45 - INFO - (010) StartListaSCCD / 95
+2021-01-29T17:37:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:37:15 - INFO - (010) StartListaSCCD / 96
+2021-01-29T17:37:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:37:45 - INFO - (010) StartListaSCCD / 97
+2021-01-29T17:38:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:38:15 - INFO - (010) StartListaSCCD / 98
+2021-01-29T17:38:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:38:45 - INFO - (010) StartListaSCCD / 99
+2021-01-29T17:39:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:39:15 - INFO - (010) StartListaSCCD / 100
+2021-01-29T17:39:45 - INFO - (010) StartListaSCCD / 101
+2021-01-29T17:39:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:40:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:40:15 - INFO - (010) StartListaSCCD / 102
+2021-01-29T17:40:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:40:45 - INFO - (010) StartListaSCCD / 103
+2021-01-29T17:41:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:41:15 - INFO - (010) StartListaSCCD / 104
+2021-01-29T17:41:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:41:45 - INFO - (010) StartListaSCCD / 105
+2021-01-29T17:42:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:42:15 - INFO - (010) StartListaSCCD / 106
+2021-01-29T17:42:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:42:45 - INFO - (010) StartListaSCCD / 107
+2021-01-29T17:43:15 - INFO - (011) Retorno da API. ( 1 itens )
+2021-01-29T17:43:15 - INFO - (010) StartListaSCCD / 108
+2021-01-29T17:43:15 - INFO - (004) Obtendo imagem. (b80ba0a3-1a30-4946-90dd-f72c21b48505.jpg)
+2021-01-29T17:43:15 - AVISO - (007) Copia de arquivo: (./downloads/b80ba0a3-1a30-4946-90dd-f72c21b48505.jpg) => (D:/New/temp/SPO/SPO56098/CARGA/FOR/SPO56098_FOR_img_1.jpg) >> ({"success":true,"message":"Copia. OK.","origem":"./downloads/b80ba0a3-1a30-4946-90dd-f72c21b48505.jpg","destino":"D:/New/temp/SPO/SPO56098/CARGA/FOR/SPO56098_FOR_img_1.jpg"})
+2021-01-29T17:43:15 - AVISO - (008) Exclusão de arquivo: (./downloads/b80ba0a3-1a30-4946-90dd-f72c21b48505.jpg) >> ({"success":true,"message":"Exclusão. OK.","file":"./downloads/b80ba0a3-1a30-4946-90dd-f72c21b48505.jpg"})
+2021-01-29T17:43:15 - AVISO - (009) Registro de Baixa SCCD na API: ID:(47) >> ({"rowsAffected":1,"msg":"OK","Erro":"","success":true,"message":"Baixado com sucesso !!!","id":47})
+2021-01-29T17:43:16 - AVISO - (020) Registro incluido com sucesso ALB : ID:(816360) >> ({"fieldCount":0,"affectedRows":1,"insertId":816360,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T17:43:16 - AVISO - (030) Registro incluido com sucesso ANX : ID:(102740) >> ({"fieldCount":0,"affectedRows":1,"insertId":102740,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T17:43:16 - SUCESSO - (049) Processo concluido na API: ID:(47)
+2021-01-29T17:43:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:43:45 - INFO - (010) StartListaSCCD / 109
+2021-01-29T17:44:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:44:15 - INFO - (010) StartListaSCCD / 110
+2021-01-29T17:44:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:44:45 - INFO - (010) StartListaSCCD / 111
+2021-01-29T17:45:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:45:15 - INFO - (010) StartListaSCCD / 112
+2021-01-29T17:45:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:45:45 - INFO - (010) StartListaSCCD / 113
+2021-01-29T17:46:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:46:15 - INFO - (010) StartListaSCCD / 114
+2021-01-29T17:46:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:46:45 - INFO - (010) StartListaSCCD / 115
+2021-01-29T17:47:15 - INFO - (011) Retorno da API. ( 1 itens )
+2021-01-29T17:47:15 - INFO - (010) StartListaSCCD / 116
+2021-01-29T17:47:15 - INFO - (004) Obtendo imagem. (6fc1c871-254a-44b4-8218-475f28d1203c.jpg)
+2021-01-29T17:47:15 - AVISO - (007) Copia de arquivo: (./downloads/6fc1c871-254a-44b4-8218-475f28d1203c.jpg) => (D:/New/temp/SPO/SPO56099/CARGA/FOR/SPO56099_FOR_img_2.jpg) >> ({"success":true,"message":"Copia. OK.","origem":"./downloads/6fc1c871-254a-44b4-8218-475f28d1203c.jpg","destino":"D:/New/temp/SPO/SPO56099/CARGA/FOR/SPO56099_FOR_img_2.jpg"})
+2021-01-29T17:47:15 - AVISO - (008) Exclusão de arquivo: (./downloads/6fc1c871-254a-44b4-8218-475f28d1203c.jpg) >> ({"success":true,"message":"Exclusão. OK.","file":"./downloads/6fc1c871-254a-44b4-8218-475f28d1203c.jpg"})
+2021-01-29T17:47:15 - AVISO - (009) Registro de Baixa SCCD na API: ID:(48) >> ({"rowsAffected":1,"msg":"OK","Erro":"","success":true,"message":"Baixado com sucesso !!!","id":48})
+2021-01-29T17:47:16 - AVISO - (020) Registro incluido com sucesso ALB : ID:(816361) >> ({"fieldCount":0,"affectedRows":1,"insertId":816361,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T17:47:16 - SUCESSO - (049) Processo concluido na API: ID:(48)
+2021-01-29T17:47:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:47:45 - INFO - (010) StartListaSCCD / 117
+2021-01-29T17:48:15 - INFO - (011) Retorno da API. ( 1 itens )
+2021-01-29T17:48:15 - INFO - (010) StartListaSCCD / 118
+2021-01-29T17:48:15 - INFO - (004) Obtendo imagem. (ca030134-1be4-4e66-91cd-ccea9ca3d0e6.jpg)
+2021-01-29T17:48:15 - AVISO - (007) Copia de arquivo: (./downloads/ca030134-1be4-4e66-91cd-ccea9ca3d0e6.jpg) => (D:/New/temp/SPO/SPO56099/CARGA/FOR/SPO56099_FOR_img_3.jpg) >> ({"success":true,"message":"Copia. OK.","origem":"./downloads/ca030134-1be4-4e66-91cd-ccea9ca3d0e6.jpg","destino":"D:/New/temp/SPO/SPO56099/CARGA/FOR/SPO56099_FOR_img_3.jpg"})
+2021-01-29T17:48:15 - AVISO - (008) Exclusão de arquivo: (./downloads/ca030134-1be4-4e66-91cd-ccea9ca3d0e6.jpg) >> ({"success":true,"message":"Exclusão. OK.","file":"./downloads/ca030134-1be4-4e66-91cd-ccea9ca3d0e6.jpg"})
+2021-01-29T17:48:16 - AVISO - (009) Registro de Baixa SCCD na API: ID:(49) >> ({"rowsAffected":1,"msg":"OK","Erro":"","success":true,"message":"Baixado com sucesso !!!","id":49})
+2021-01-29T17:48:16 - AVISO - (020) Registro incluido com sucesso ALB : ID:(816362) >> ({"fieldCount":0,"affectedRows":1,"insertId":816362,"info":"","serverStatus":2,"warningStatus":1})
+2021-01-29T17:48:16 - SUCESSO - (049) Processo concluido na API: ID:(49)
+2021-01-29T17:48:45 - INFO - (010) StartListaSCCD / 119
+2021-01-29T17:48:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:49:15 - INFO - (010) StartListaSCCD / 120
+2021-01-29T17:49:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:49:45 - INFO - (010) StartListaSCCD / 121
+2021-01-29T17:49:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:50:15 - INFO - (010) StartListaSCCD / 122
+2021-01-29T17:50:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:50:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:50:45 - INFO - (010) StartListaSCCD / 123
+2021-01-29T17:51:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:51:15 - INFO - (010) StartListaSCCD / 124
+2021-01-29T17:51:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:51:45 - INFO - (010) StartListaSCCD / 125
+2021-01-29T17:52:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:52:15 - INFO - (010) StartListaSCCD / 126
+2021-01-29T17:52:45 - INFO - (010) StartListaSCCD / 127
+2021-01-29T17:52:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:53:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:53:15 - INFO - (010) StartListaSCCD / 128
+2021-01-29T17:53:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:53:45 - INFO - (010) StartListaSCCD / 129
+2021-01-29T17:54:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:54:15 - INFO - (010) StartListaSCCD / 130
+2021-01-29T17:54:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:54:45 - INFO - (010) StartListaSCCD / 131
+2021-01-29T17:55:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:55:15 - INFO - (010) StartListaSCCD / 132
+2021-01-29T17:55:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:55:45 - INFO - (010) StartListaSCCD / 133
+2021-01-29T17:56:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:56:15 - INFO - (010) StartListaSCCD / 134
+2021-01-29T17:56:45 - INFO - (010) StartListaSCCD / 135
+2021-01-29T17:56:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:57:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:57:15 - INFO - (010) StartListaSCCD / 136
+2021-01-29T17:57:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:57:45 - INFO - (010) StartListaSCCD / 137
+2021-01-29T17:58:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:58:15 - INFO - (010) StartListaSCCD / 138
+2021-01-29T17:58:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:58:45 - INFO - (010) StartListaSCCD / 139
+2021-01-29T17:59:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:59:15 - INFO - (010) StartListaSCCD / 140
+2021-01-29T17:59:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T17:59:45 - INFO - (010) StartListaSCCD / 141
+2021-01-29T18:00:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T18:00:15 - INFO - (010) StartListaSCCD / 142
+2021-01-29T18:00:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T18:00:45 - INFO - (010) StartListaSCCD / 143
+2021-01-29T18:01:15 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T18:01:15 - INFO - (010) StartListaSCCD / 144
+2021-01-29T18:01:45 - INFO - (011) Retorno da API. ( 0 itens )
+2021-01-29T18:01:45 - INFO - (010) StartListaSCCD / 145
