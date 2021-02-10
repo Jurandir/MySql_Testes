@@ -1,6 +1,8 @@
 const fs = require('fs');
 
-const dirBase = process.env.DIR_BASE || 'D:/New/temp'
+require('dotenv').config()
+
+const dirBase = process.env.DIR_BASE || 'C:/wamp64/www/sicnovo/carga/upload'
 
 const CriaDirSCCD = (param) => {
 
