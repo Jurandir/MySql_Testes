@@ -58,7 +58,7 @@ function pegarFilialUsuarioAPP(element) {
     let newElemento = element
     let user = newElemento.USUARIO
     if(!user){
-        sendLog('WARNING',`(001) Não achou usuário em MySql. (${JSON.stringify(element)})`)
+        sendLog('ERRO',`(001) Não achou usuário "${user}" em MySql. (${JSON.stringify(element)})`)
         return 0
     }
     getUsuarioSCCD(user).then( async (dados)=>{
@@ -74,7 +74,7 @@ function pegarFilialUsuarioAPP(element) {
             }
             criarDiretorios(newElemento)
         } else {
-            sendLog('ERRO',`(003) Obtendo dados do usuário APP em MySql. (${JSON.stringify(dados)})`)
+            sendLog('ERRO',`(003) Obtendo dados do usuário (${user}) APP em MySql. (${JSON.stringify(dados)})`)
         }  
     })
 }

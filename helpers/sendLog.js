@@ -1,8 +1,10 @@
 const fs = require('fs')
 
-const msg_info    = process.env.MSG_INFO || 'TRUE'
-const msg_sucesso = process.env.MSG_SUCESSO || 'TRUE'
-const msg_aviso   = process.env.MSG_AVISO || 'TRUE'
+require('dotenv').config()
+
+const msg_info    = process.env.MSG_INFO || 'FALSE'
+const msg_sucesso = process.env.MSG_SUCESSO || 'FALSE'
+const msg_aviso   = process.env.MSG_AVISO || 'FALSE'
 const msg_warning = process.env.MSG_WARNING
 
 const sendLog = async ( ref, msg ) => {
