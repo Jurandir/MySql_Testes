@@ -28,6 +28,12 @@ const MySQL = {
         return rows  
       } catch (err) {
           console.log('Err:',err)
+          console.log('Tentando reconectrar....')
+          try {
+            global.connection = await mysql.createConnection(config)
+          } catch (err) {
+            console.log('Err:',err)
+          }  
           return []
       }
   }
