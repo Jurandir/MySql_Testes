@@ -10,6 +10,7 @@ const searchExist_ANX = async (cartaFrete,filial,operacao,tipo) => {
     }
 
     await sqlQueryDB(s_sql, [cartaFrete,filial,operacao,tipo]).then((rows)=>{
+        // console.log('SQL ANX:',s_sql, {cartaFrete,filial,operacao,tipo},'ROWS:',rows )
         retorno.success = (rows.length > 0)
         retorno.data    = (retorno.success==true ? rows[0] : [] )
         retorno.message = (retorno.success==true ? 'Sucesso. OK.' : retorno.message)

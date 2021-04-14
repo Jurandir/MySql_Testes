@@ -18,11 +18,13 @@ const {connectDB,desconnectDB,sqlQueryDB}  = require('./connections/MySQL')
 
 require('dotenv').config()
 
-const api_list_sccd    = process.env.API_LIST_SCCD
-const api_baixa_sccd   = process.env.API_BAIXA_SCCD
-const api_sccd_success = process.env.API_SCCD_SUCCESS
-const time_verify      = process.env.TIME_VERIFY
+const api_list_sccd     = process.env.API_LIST_SCCD
+const api_sccd_filename = process.env.API_SCCD_FILENAME
+const api_baixa_sccd    = process.env.API_BAIXA_SCCD
+const api_sccd_success  = process.env.API_SCCD_SUCCESS
+const time_verify       = process.env.TIME_VERIFY
 
+let check_xav = '---'
 
 //(1) - ler SCCD disponiveis na API (Pegar lista criada pelo APP)
 async function StartListaSCCD() {
@@ -110,6 +112,7 @@ function criarDiretorios(element) {
     }
 }
 
+
 // (5) copia imagens relacionadas para os diretorios / renomeando
 async function copiarImagem(element) {
     let filial_app  =  element.FILIAL_APP
@@ -119,6 +122,30 @@ async function copiarImagem(element) {
     let newFile     =  await proximoArquivo(dir_destino,mask)
     let destino     =  newFile.fullName
     let id          =  element.ID
+
+    try {
+        let ret = await loadAPI('GET','',api_sccd_filename,{par_id: id})
+        let fileName = `${ret.data.FILENAME}.jpg`
+        let fileDestino = ret.data.DESTINO    
+        destino = `${dir_destino}/${fileName}`
+        
+        if (fs.existsSync(destino)) {
+            if(fileDestino) {
+                // se destino está registrado no BD e existe fisicamente = Exclui para refazer fluxo
+                await excluirArquivo(destino)
+            } else {
+                // se destino não está registrado no BD e existe fisicamente = Usa SO para gravar em um nome livre
+                destino = newFile.fullName
+            }
+        } else {
+            newFile.fullName = destino
+            newFile.fileName = fileName
+        }
+
+    } catch(err) {
+        sendLog('ERRO',`(1000) - ${err.message} -  (${JSON.stringify(err)})`)
+        return 0
+    }
 
     try {
         if (fs.existsSync(destino)) {
@@ -173,7 +200,20 @@ async function testExist_ALB(element) {
         }
     })
 
-    testExist_ANX(element)
+    // evitar duplicidade em ANX   
+    // cartaFrete,filial,operacao,tipo
+    let check_anx = element.CARTAFRETE +'-'+ element.FILIAL_APP +'-'+ element.OPERACAO +'-'+ element.TIPOVEICULO
+    if(check_anx===check_xav) {
+        baixaAPI_sucesso(element.ID)
+        return 0
+    } else {
+        testExist_ANX(element).then(ok=>{
+            check_xav = '---'
+        })
+        check_xav = check_anx
+    }
+
+    return 1
 }
 
 // (7.1) insere ANX no MySql
@@ -185,7 +225,7 @@ async function testExist_ANX(element) {
     let usuario    = element.USUARIO   
     let anx
 
-    await searchExist_ANX(cartaFrete,filial,operacao,tipo).then( async (ret)=>{    
+    await searchExist_ANX(cartaFrete,filial,operacao,tipo).then( async (ret)=>{
         if(ret.success==false){
             anx = await insert_ANX(cartaFrete,filial,operacao,usuario,tipo)
         }
