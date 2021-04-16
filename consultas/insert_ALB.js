@@ -16,12 +16,17 @@ const insert_ALB = async (cartaFrete,arquivo,filial,operacao,descricao,usuario) 
     }
 
     await sqlQueryDB(s_sql, [cartaFrete,arquivo,filial,operacao,descricao,seq,usuario]).then((rows)=>{
+
+        // debug
+        // console.log('(insert_ALB) rows:',rows)
+
+        let { affectedRows, insertId } = rows
         
-        retorno.success = (rows.affectedRows > 0)
+        retorno.success = (affectedRows > 0)
         retorno.message = (retorno.success==true ? 'Incluido. OK.' : retorno.message)
         if(retorno.success) {
-            retorno.insertId = rows.insertId
-            sendLog('AVISO',`(020) Registro incluido com sucesso ALB : ID:(${rows.insertId}) >> (${JSON.stringify(rows)})`)
+            retorno.insertId = insertId
+            sendLog('AVISO',`(020) Registro incluido com sucesso ALB : ID:(${insertId}) >> (${JSON.stringify(rows)})`)
         }
 
     }).catch((err)=>{
